@@ -43,13 +43,16 @@ class object():
         vx1 = player.vel.x
         vy2 = self.vel.y
         vx2 = self.vel.x
-        s = dx / d
-        c = dy / d
-        # if vx1 * c + vy1 * s - vx2 * c - vy2 * s < 0:
-        #     return
-        # print('kick')
-        self.vel = vec2D(vx1 * c ** 2 + vy1 * s * c - vx2 * c ** 2 - vy2 * s * c + vx2 * s ** 2 + -vy2 * s * c + vx1,
-                         vx1 * s * c + vy1 * s ** 2 - vx2 * c * s - vy2 * s ** 2 - vx2 * s * c + vy2 * c ** 2 + vy1)
+        s = dy / d
+        c = dx / d
+        vrx = vx1 - vx2
+        vry = vy1 - vy2
+        if vrx * c + vry * s < 0:
+            return
+        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1 + 2 * d * c,
+                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1 + 2 * d * s)
+        # self.vel = vec2D(vx1 * c ** 2 + vy1 * s * c - vx2 * c ** 2 - vy2 * s * c + vx2 * s ** 2 + -vy2 * s * c + vx1,
+        #                  vx1 * s * c + vy1 * s ** 2 - vx2 * c * s - vy2 * s ** 2 - vx2 * s * c + vy2 * c ** 2 + vy1)
 
     def crush(self, player):
         d = player.coord.dist(self.coord)
@@ -59,8 +62,8 @@ class object():
         vx1 = player.vel.x
         vy2 = self.vel.y
         vx2 = self.vel.x
-        s = dx / d
-        c = dy / d
+        s = dy / d
+        c = dx / d
         self.vel = vec2D(vx1 * s ** 2 - vy1 * c * s + vx2 * c ** 2 + vy2 * s * c,
                          vx2 * c * s + vy2 * s ** 2 - vx1 * s * c + vy1 * c ** 2)
         player.vel = vec2D(vx2 * s ** 2 - vy2 * c * s + vx1 * c ** 2 + vy1 * s * c,
@@ -204,17 +207,14 @@ class field():
             if dist_to_ball <= radius_player + radius_soccer:
                 self.soccer.strike(self.teamB[i])
 
-    def run_step(self, acc_command):
-        state = self.derive_state()
+    def run_step(self, command):
         self.soccer.process()
         for i in range(self.numA):
-            delta_v = acc_command[2 * i: 2 * i + 2] * time_step
-            self.teamA[i].vel = self.teamA[i].vel.add(vec2D(delta_v[0], delta_v[1]))
+            self.teamA[i].vel = vec2D(command[2 * i],command[ 2 * i + 2])
             self.teamA[i].process()
             self.teamA[i].vel_fade()
         for i in range(self.numB):
-            delta_v = acc_command[2 * self.numA + 2 * i: 2 * self.numA + 2 * i + 2] * time_step
-            self.teamB[i].vel = self.teamB[i].vel.add(vec2D(delta_v[0], delta_v[1]))
+            self.teamB[i].vel = vec2D(command[2 * self.numA + 2 * i], command[2 * self.numA + 2 * i + 1])
             self.teamB[i].process()
             self.teamB[i].vel_fade()
         flag = self.detect_soccer()
@@ -238,7 +238,7 @@ class field():
             while flag == 0:
                 state = self.derive_state()
                 command = control.nn(state)
-                state_, reward, flag = self.run_step(command)
+                state_, flag = self.run_step(command)
                 self.detect_player()
                 k = k + 1
                 visualize.draw(state_)

@@ -7,7 +7,7 @@ from utils import create_directory
 import visualize
 
 parser = argparse.ArgumentParser("DDPG parameters")
-parser.add_argument('--max_episodes', type=int, default=20000)
+parser.add_argument('--max_episodes', type=int, default=10)
 parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints/DDPG/')
 args = parser.parse_args()
 
@@ -41,8 +41,8 @@ def main():
     agentA = DDPG(alpha=0.0001, beta=0.001, state_dim=4*(teamA_num+teamB_num+1),
                  action_dim=2*teamA_num, actor_fc1_dim=512, actor_fc2_dim=256, actor_fc3_dim=128,
                  critic_fc1_dim=512, critic_fc2_dim=256, critic_fc3_dim=128, ckpt_dir=args.checkpoint_dir + '01' + '/',
-                 batch_size=256)
-    create_directory(args.checkpoint_dir+ '01' + '/',
+                 batch_size=64)
+    create_directory(args.checkpoint_dir+ 'test' + '/',
                      sub_paths=['Actor', 'Target_actor', 'Critic', 'Target_critic'])
     
 
@@ -89,8 +89,7 @@ def main():
         avg_reward_history.append(avg_reward)
         print('Ep: {0} Flag:{1} Reward: {2:f} {3:f} '.format(episode+1, flag, total_reward[0],total_reward[1]))
 
-        if (episode + 1) % 200 == 0:
-            agentA.save_models(episode+1)
+    agentA.save_models(0)
 
     # episodes = [i+1 for i in range(args.max_episodes)]
     # plot_learning_curve(episodes, avg_reward_history, title='AvgReward',

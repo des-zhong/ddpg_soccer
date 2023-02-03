@@ -56,7 +56,7 @@ class DDPG:
             noise = T.tensor(np.random.normal(loc=0.0, scale=100 * self.action_noise),
                              dtype=T.float).to(device)
             action = action + noise
-        self.actor.train()
+            self.actor.train()
 
         return action.detach().cpu().numpy()
 

@@ -1,7 +1,8 @@
 from config import *
 import numpy as np
-import control
 import visualize
+import DDPG
+import train1v1
 
 
 class vec2D():
@@ -92,7 +93,7 @@ class field():
         self.width = width
 
         self.gate_length = gate_length
-        self.xlimA = [-width / 2 + radius_player, 0]
+        self.xlimA = [-width / 2 + radius_player, width / 2 - radius_player]
         self.xlimB = [0, width / 2 - radius_player]
         self.ylim = [-length / 2 + radius_player, length / 2 - radius_player]
         self.score = [0, 0]
@@ -122,6 +123,18 @@ class field():
         state.append(self.soccer.coord.y)
         state.append(self.soccer.vel.x)
         state.append(self.soccer.vel.y)
+        return np.array(state)
+
+    def derive_pos(self):
+        state = []
+        for i in range(self.numA):
+            state.append(-self.teamA[i].coord.x+self.soccer.coord.x)
+            state.append(-self.teamA[i].coord.y + self.soccer.coord.y)
+        for i in range(self.numB):
+            state.append(-self.teamB[i].coord.x + self.soccer.coord.x)
+            state.append(-self.teamB[i].coord.y + self.soccer.coord.y)
+        state.append(field_width / 2 - self.soccer.coord.x)
+        state.append(-self.soccer.coord.y)
         return np.array(state)
 
     def reset(self):
@@ -210,7 +223,7 @@ class field():
     def run_step(self, command):
         self.soccer.process()
         for i in range(self.numA):
-            self.teamA[i].vel = vec2D(command[2 * i],command[ 2 * i + 2])
+            self.teamA[i].vel = vec2D(command[2 * i], command[2 * i + 1])
             self.teamA[i].process()
             self.teamA[i].vel_fade()
         for i in range(self.numB):
@@ -218,11 +231,15 @@ class field():
             self.teamB[i].process()
             self.teamB[i].vel_fade()
         flag = self.detect_soccer()
-        state_ = self.derive_state()
 
-        return state_, flag
+        return flag
 
     def match(self, num):
+        agentA = DDPG.DDPG(alpha=0.0001, beta=0.001, state_dim=2 * (teamA_num + teamB_num + 1),
+                           action_dim=2 * teamA_num, actor_fc1_dim=128, actor_fc2_dim=64, actor_fc3_dim=64,
+                           critic_fc1_dim=128, critic_fc2_dim=64, critic_fc3_dim=64,
+                           ckpt_dir='./checkpoints/DDPG/' + 'test' + '/', batch_size=64)
+        agentA.load_models(0)
         for i in range(num):
             print('match ', i, ' begins')
             flag = 0
@@ -236,15 +253,16 @@ class field():
             # print(state)
             k = 0
             while flag == 0:
-                state = self.derive_state()
-                command = control.nn(state)
-                state_, flag = self.run_step(command)
+                state = self.derive_pos()
+                action = [agentA.choose_action(state, train=False)]
+                # action.append(100 * (np.random.random(2 * teamB_num) - np.ones(2 * teamB_num) * 0.5))
+                action = np.array(action).flatten()
+                flag = self.run_step(action)
+                state_ = self.derive_pos()
+                print('r=', train1v1.get_pos_reward(state, state_, action, flag))
                 self.detect_player()
                 k = k + 1
-                visualize.draw(state_)
+                visualize.draw(self.derive_state())
                 if k > max_iter:
                     break
             print('\n')
-
-
-   

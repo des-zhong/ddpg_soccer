@@ -7,7 +7,7 @@ from utils import create_directory
 import visualize
 
 parser = argparse.ArgumentParser("DDPG parameters")
-parser.add_argument('--max_episodes', type=int, default=100)
+parser.add_argument('--max_episodes', type=int, default=200)
 parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints/DDPG/')
 args = parser.parse_args()
 
@@ -41,8 +41,9 @@ def get_pos_reward(state, state_, action, flag):
         gate_ = state_[-2:]
         # r = np.linalg.norm(player) - np.linalg.norm(player_)
         # r += 3 * (np.linalg.norm(gate) - np.linalg.norm(gate_))
-        r = (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_) * (
-                    np.linalg.norm(player) - np.linalg.norm(player_))
+        r = 5*(player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
+        r += np.linalg.norm(player) - np.linalg.norm(player_)
+        r += (-np.linalg.norm(gate_) + np.linalg.norm(gate))*2
         # r = 1/(1+0.5*np.linalg.norm(player)*(player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_))
 
         # r = -np.linalg.norm(action)

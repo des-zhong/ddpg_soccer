@@ -18,13 +18,13 @@ class DDPG:
         self.checkpoint_dir = ckpt_dir
 
         self.actor = ActorNetwork(alpha=alpha, state_dim=state_dim, action_dim=action_dim,
-                                  fc1_dim=actor_fc1_dim, fc2_dim=actor_fc2_dim,fc3_dim=actor_fc3_dim)
+                                  fc1_dim=actor_fc1_dim, fc2_dim=actor_fc2_dim, fc3_dim=actor_fc3_dim)
         self.target_actor = ActorNetwork(alpha=alpha, state_dim=state_dim, action_dim=action_dim,
-                                         fc1_dim=actor_fc1_dim, fc2_dim=actor_fc2_dim,fc3_dim=actor_fc3_dim)
+                                         fc1_dim=actor_fc1_dim, fc2_dim=actor_fc2_dim, fc3_dim=actor_fc3_dim)
         self.critic = CriticNetwork(beta=beta, state_dim=state_dim, action_dim=action_dim,
                                     fc1_dim=critic_fc1_dim, fc2_dim=critic_fc2_dim, fc3_dim=critic_fc3_dim)
         self.target_critic = CriticNetwork(beta=beta, state_dim=state_dim, action_dim=action_dim,
-                                           fc1_dim=critic_fc1_dim, fc2_dim=critic_fc2_dim,fc3_dim=critic_fc3_dim)
+                                           fc1_dim=critic_fc1_dim, fc2_dim=critic_fc2_dim, fc3_dim=critic_fc3_dim)
 
         self.memory = ReplayBuffer(max_size=max_size, state_dim=state_dim, action_dim=action_dim,
                                    batch_size=batch_size)
@@ -55,7 +55,8 @@ class DDPG:
         if train:
             noise = T.tensor(np.random.normal(loc=0.0, scale=100 * self.action_noise),
                              dtype=T.float).to(device)
-            action = action + noise
+            # print(action, action + 20 * noise)
+            action = action + 10 * noise
             self.actor.train()
 
         return action.detach().cpu().numpy()

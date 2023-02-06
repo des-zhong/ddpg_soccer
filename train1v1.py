@@ -7,7 +7,7 @@ from utils import create_directory
 import visualize
 
 parser = argparse.ArgumentParser("DDPG parameters")
-parser.add_argument('--max_episodes', type=int, default=200)
+parser.add_argument('--max_episodes', type=int, default=20)
 parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints/DDPG/')
 args = parser.parse_args()
 
@@ -41,12 +41,11 @@ def get_pos_reward(state, state_, action, flag):
         gate_ = state_[-2:]
         # r = np.linalg.norm(player) - np.linalg.norm(player_)
         # r += 3 * (np.linalg.norm(gate) - np.linalg.norm(gate_))
-        r = 5*(player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
+        r = 5 * (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_) / (
+                    1 + 0*np.linalg.norm(player_))
+        # print(r, 8 * (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_), np.linalg.norm(player) - np.linalg.norm(player_), 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate)))
         r += np.linalg.norm(player) - np.linalg.norm(player_)
-        r += (-np.linalg.norm(gate_) + np.linalg.norm(gate))*2
-        # r = 1/(1+0.5*np.linalg.norm(player)*(player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_))
-
-        # r = -np.linalg.norm(action)
+        r += 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate))
         reward.append(r)
     for i in range(teamB_num):
         r = 1
@@ -57,9 +56,9 @@ def get_pos_reward(state, state_, action, flag):
 
 def main():
     env = utility.field(teamA_num, teamB_num, field_width, field_length)
-    agentA = DDPG(alpha=0.0001, beta=0.001, state_dim=2 * (teamA_num + teamB_num + 1),
-                  action_dim=2 * teamA_num, actor_fc1_dim=128, actor_fc2_dim=64, actor_fc3_dim=64,
-                  critic_fc1_dim=128, critic_fc2_dim=64, critic_fc3_dim=64, ckpt_dir=args.checkpoint_dir + 'test' + '/',
+    agentA = DDPG(alpha=actor_lr, beta=critic_lr, state_dim=2 * (teamA_num + teamB_num + 1),
+                  action_dim=2 * teamA_num, actor_fc1_dim=fc1_dim, actor_fc2_dim=fc2_dim, actor_fc3_dim=fc3_dim,
+                  critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim, ckpt_dir=args.checkpoint_dir + 'test' + '/',
                   batch_size=64)
     create_directory(args.checkpoint_dir + 'test' + '/',
                      sub_paths=['Actor', 'Target_actor', 'Critic', 'Target_critic'])
@@ -77,7 +76,7 @@ def main():
             ok = env.collide()
             if ok == True:
                 break
-        while flag == 0 and k < 1000:
+        while flag == 0 and k < 2000:
             kick = 0
             state = env.derive_pos()
             action = [agentA.choose_action(state, train=True)]

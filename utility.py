@@ -1,7 +1,8 @@
 from config import *
 import numpy as np
-import control
 import visualize
+import DDPG
+import train1v1
 
 
 class vec2D():
@@ -49,8 +50,8 @@ class object():
         vry = vy1 - vy2
         if vrx * c + vry * s < 0:
             return
-        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1 + 2 * d * c,
-                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1 + 2 * d * s)
+        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1 + 0.1 * d * c,
+                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1 + 0.1 * d * s)
         # self.vel = vec2D(vx1 * c ** 2 + vy1 * s * c - vx2 * c ** 2 - vy2 * s * c + vx2 * s ** 2 + -vy2 * s * c + vx1,
         #                  vx1 * s * c + vy1 * s ** 2 - vx2 * c * s - vy2 * s ** 2 - vx2 * s * c + vy2 * c ** 2 + vy1)
 
@@ -92,7 +93,7 @@ class field():
         self.width = width
 
         self.gate_length = gate_length
-        self.xlimA = [-width / 2 + radius_player, 0]
+        self.xlimA = [-width / 2 + radius_player, width / 2 - radius_player]
         self.xlimB = [0, width / 2 - radius_player]
         self.ylim = [-length / 2 + radius_player, length / 2 - radius_player]
         self.score = [0, 0]
@@ -124,15 +125,30 @@ class field():
         state.append(self.soccer.vel.y)
         return np.array(state)
 
+    def derive_pos(self):
+        state = []
+        for i in range(self.numA):
+            state.append(-self.teamA[i].coord.x + self.soccer.coord.x)
+            state.append(-self.teamA[i].coord.y + self.soccer.coord.y)
+        for i in range(self.numB):
+            state.append(-self.teamB[i].coord.x + self.soccer.coord.x)
+            state.append(-self.teamB[i].coord.y + self.soccer.coord.y)
+        state.append(field_width / 2 - self.soccer.coord.x)
+        state.append(-self.soccer.coord.y)
+        return np.array(state)
+
     def reset(self):
         self.teamA = []
         self.teamB = []
         for i in range(self.numA):
             random_coord = random(self.xlimA, self.ylim)
-            self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
+            # self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
+            self.teamA.append(object(vec2D(-300, 300), vec2D(0, 0), radius_player, i))
         for i in range(self.numB):
             random_coord = random(self.xlimB, self.ylim)
             self.teamB.append(object(random_coord, vec2D(0, 0), radius_player, i))
+        # self.soccer = object(random([-self.width / 4, self.width / 4], [-self.length / 4, self.length / 4]),
+        #                      vec2D(0, 0), radius_soccer)
         self.soccer = object(vec2D(0, 0), vec2D(0, 0), radius_soccer)
 
     def detect_soccer(self):
@@ -210,7 +226,7 @@ class field():
     def run_step(self, command):
         self.soccer.process()
         for i in range(self.numA):
-            self.teamA[i].vel = vec2D(command[2 * i],command[ 2 * i + 2])
+            self.teamA[i].vel = vec2D(command[2 * i], command[2 * i + 1])
             self.teamA[i].process()
             self.teamA[i].vel_fade()
         for i in range(self.numB):
@@ -218,11 +234,16 @@ class field():
             self.teamB[i].process()
             self.teamB[i].vel_fade()
         flag = self.detect_soccer()
-        state_ = self.derive_state()
 
-        return state_, flag
+        return flag
 
     def match(self, num):
+        agentA = DDPG.DDPG(alpha=0.0001, beta=0.001, state_dim=2 * (teamA_num + teamB_num + 1),
+                           action_dim=2 * teamA_num, actor_fc1_dim=fc1_dim, actor_fc2_dim=fc2_dim,
+                           actor_fc3_dim=fc3_dim, critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim,
+                           critic_fc3_dim=fc3_dim,
+                           ckpt_dir='./checkpoints/DDPG/' + 'test' + '/', batch_size=64)
+        agentA.load_models(0)
         for i in range(num):
             print('match ', i, ' begins')
             flag = 0
@@ -236,15 +257,16 @@ class field():
             # print(state)
             k = 0
             while flag == 0:
-                state = self.derive_state()
-                command = control.nn(state)
-                state_, flag = self.run_step(command)
+                state = self.derive_pos()
+                action_ = [agentA.choose_action(state, train=False)]
+                # action.append(100 * (np.random.random(2 * teamB_num) - np.ones(2 * teamB_num) * 0.5))
+                action_ = np.array(action_).flatten()
+                flag = self.run_step(action_)
+                state_ = self.derive_pos()
+                print('r=', train1v1.get_pos_reward(state, state_, action_, flag), '\n')
                 self.detect_player()
                 k = k + 1
-                visualize.draw(state_)
+                visualize.draw(self.derive_state())
                 if k > max_iter:
                     break
             print('\n')
-
-
-   

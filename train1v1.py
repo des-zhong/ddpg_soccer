@@ -41,10 +41,9 @@ def get_pos_reward(state, state_, action, flag):
         gate_ = state_[-2:]
         # r = np.linalg.norm(player) - np.linalg.norm(player_)
         # r += 3 * (np.linalg.norm(gate) - np.linalg.norm(gate_))
-        r = 5 * (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_) / (
-                    1 + 0*np.linalg.norm(player_))
-        # print(r, 8 * (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_), np.linalg.norm(player) - np.linalg.norm(player_), 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate)))
-        r += np.linalg.norm(player) - np.linalg.norm(player_)
+        cos = (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
+        r = 8*cos
+        r = +np.linalg.norm(player) - np.linalg.norm(player_)
         r += 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate))
         reward.append(r)
     for i in range(teamB_num):
@@ -58,7 +57,8 @@ def main():
     env = utility.field(teamA_num, teamB_num, field_width, field_length)
     agentA = DDPG(alpha=actor_lr, beta=critic_lr, state_dim=2 * (teamA_num + teamB_num + 1),
                   action_dim=2 * teamA_num, actor_fc1_dim=fc1_dim, actor_fc2_dim=fc2_dim, actor_fc3_dim=fc3_dim,
-                  critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim, ckpt_dir=args.checkpoint_dir + 'test' + '/',
+                  critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim,
+                  ckpt_dir=args.checkpoint_dir + 'test' + '/',
                   batch_size=64)
     create_directory(args.checkpoint_dir + 'test' + '/',
                      sub_paths=['Actor', 'Target_actor', 'Critic', 'Target_critic'])

@@ -93,7 +93,8 @@ class field():
         self.width = width
 
         self.gate_length = gate_length
-        self.xlimA = [-width / 2 + radius_player, width / 2 - radius_player]
+        # self.xlimA = [-width / 2 + radius_player, width / 2 - radius_player]
+        self.xlimA = [-width / 2 + radius_player, 0]
         self.xlimB = [0, width / 2 - radius_player]
         self.ylim = [-length / 2 + radius_player, length / 2 - radius_player]
         self.score = [0, 0]
@@ -142,8 +143,8 @@ class field():
         self.teamB = []
         for i in range(self.numA):
             random_coord = random(self.xlimA, self.ylim)
-            # self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
-            self.teamA.append(object(vec2D(-300, 300), vec2D(0, 0), radius_player, i))
+            self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
+            # self.teamA.append(object(vec2D(-300, 300), vec2D(0, 0), radius_player, i))
         for i in range(self.numB):
             random_coord = random(self.xlimB, self.ylim)
             self.teamB.append(object(random_coord, vec2D(0, 0), radius_player, i))

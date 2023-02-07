@@ -3,8 +3,8 @@
 速度为mm/s
 '''
 
-actor_lr = 0.1
-critic_lr = 0.01
+actor_lr = 0.0001
+critic_lr = 0.001
 gamma = 0.1
 time_step = 0.01
 field_length = 2200

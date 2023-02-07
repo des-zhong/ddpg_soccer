@@ -1,0 +1,3081 @@
+pygame 2.1.3.dev8 (SDL 2.26.1, Python 3.8.15)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Create path: ./checkpoints/DDPG/07/Actor successfully
+Create path: ./checkpoints/DDPG/07/Target_actor successfully
+Create path: ./checkpoints/DDPG/07/Critic successfully
+Create path: ./checkpoints/DDPG/07/Target_critic successfully
+Ep: 1 Flag:0 Reward: 3766.517675
+Ep: 2 Flag:0 Reward: 4646.317771
+Ep: 3 Flag:0 Reward: 4982.570565
+Out of field
+Ep: 4 Flag:-1 Reward: 361.031621
+Out of field
+Ep: 5 Flag:-1 Reward: 3221.776178
+Out of field
+Ep: 6 Flag:-1 Reward: 692.203423
+Ep: 7 Flag:0 Reward: -2971.623972
+Ep: 8 Flag:0 Reward: 3795.189111
+Out of field
+Ep: 9 Flag:-1 Reward: -3318.838110
+Out of field
+Ep: 10 Flag:-1 Reward: 742.789178
+Ep: 11 Flag:0 Reward: -2252.349146
+Out of field
+Ep: 12 Flag:-1 Reward: 464.909351
+Ep: 13 Flag:0 Reward: 3777.751681
+Ep: 14 Flag:0 Reward: -1802.838297
+Ep: 15 Flag:0 Reward: 1330.780103
+Ep: 16 Flag:0 Reward: 2636.920811
+Ep: 17 Flag:0 Reward: 4781.436411
+Out of field
+Ep: 18 Flag:-1 Reward: -773.645424
+Ep: 19 Flag:0 Reward: 1143.331097
+Ep: 20 Flag:0 Reward: 3499.144700
+Ep: 21 Flag:0 Reward: 5007.690329
+Out of field
+Ep: 22 Flag:-1 Reward: 2898.203706
+Ep: 23 Flag:0 Reward: 3876.958225
+Out of field
+Ep: 24 Flag:-1 Reward: 2937.606293
+Ep: 25 Flag:0 Reward: -2538.638180
+Out of field
+Ep: 26 Flag:-1 Reward: 2170.069177
+Out of field
+Ep: 27 Flag:-1 Reward: -1630.065267
+Out of field
+Ep: 28 Flag:-1 Reward: 1826.640596
+Out of field
+Ep: 29 Flag:-1 Reward: 4942.111271
+Out of field
+Ep: 30 Flag:-1 Reward: -1117.468384
+Ep: 31 Flag:0 Reward: -146.640395
+Goal!
+Ep: 32 Flag:1 Reward: 6606.932209
+Ep: 33 Flag:0 Reward: -1456.788306
+Out of field
+Ep: 34 Flag:-1 Reward: 777.006555
+Out of field
+Ep: 35 Flag:-1 Reward: -3403.233703
+Out of field
+Ep: 36 Flag:-1 Reward: 2170.349286
+Out of field
+Ep: 37 Flag:-1 Reward: 4259.130876
+Out of field
+Ep: 38 Flag:-1 Reward: 3328.080028
+Ep: 39 Flag:0 Reward: -1121.873757
+Out of field
+Ep: 40 Flag:-1 Reward: 4557.015799
+Out of field
+Ep: 41 Flag:-1 Reward: 1192.987024
+Out of field
+Ep: 42 Flag:-1 Reward: 1027.901295
+Ep: 43 Flag:0 Reward: 2745.078380
+Ep: 44 Flag:0 Reward: -1364.703886
+Ep: 45 Flag:0 Reward: 4496.961509
+Out of field
+Ep: 46 Flag:-1 Reward: -5325.059113
+Ep: 47 Flag:0 Reward: -2090.772645
+Goal!
+Ep: 48 Flag:1 Reward: 6533.821026
+Out of field
+Ep: 49 Flag:-1 Reward: 325.917274
+Out of field
+Ep: 50 Flag:-1 Reward: -5787.483013
+Out of field
+Ep: 51 Flag:-1 Reward: 3070.709104
+Out of field
+Ep: 52 Flag:-1 Reward: 1161.032141
+Out of field
+Ep: 53 Flag:-1 Reward: 459.252962
+Out of field
+Ep: 54 Flag:-1 Reward: 4097.819836
+Ep: 55 Flag:0 Reward: -989.186034
+Out of field
+Ep: 56 Flag:-1 Reward: 1484.920893
+Out of field
+Ep: 57 Flag:-1 Reward: 2429.223602
+Out of field
+Ep: 58 Flag:-1 Reward: 1806.313942
+Out of field
+Ep: 59 Flag:-1 Reward: -1046.908659
+Ep: 60 Flag:0 Reward: 5330.065285
+Out of field
+Ep: 61 Flag:-1 Reward: -846.203080
+Out of field
+Ep: 62 Flag:-1 Reward: 1245.725159
+Out of field
+Ep: 63 Flag:-1 Reward: 3523.092366
+Out of field
+Ep: 64 Flag:-1 Reward: -106.030591
+Ep: 65 Flag:0 Reward: 4892.868914
+Out of field
+Ep: 66 Flag:-1 Reward: -1623.788348
+Ep: 67 Flag:0 Reward: 5358.489189
+Ep: 68 Flag:0 Reward: 1984.412936
+Ep: 69 Flag:0 Reward: 1538.137736
+Out of field
+Ep: 70 Flag:-1 Reward: 2570.412635
+Out of field
+Ep: 71 Flag:-1 Reward: 459.157567
+Out of field
+Ep: 72 Flag:-1 Reward: 1238.996992
+Ep: 73 Flag:0 Reward: 3559.942484
+Out of field
+Ep: 74 Flag:-1 Reward: -553.630164
+Out of field
+Ep: 75 Flag:-1 Reward: 4210.682078
+Ep: 76 Flag:0 Reward: 4327.292783
+Out of field
+Ep: 77 Flag:-1 Reward: 13.721794
+Ep: 78 Flag:0 Reward: 403.192236
+Ep: 79 Flag:0 Reward: 5105.639890
+Ep: 80 Flag:0 Reward: 3428.185750
+Ep: 81 Flag:0 Reward: 4028.805599
+Ep: 82 Flag:0 Reward: 573.474413
+Ep: 83 Flag:0 Reward: -1289.163761
+Ep: 84 Flag:0 Reward: 879.799284
+Ep: 85 Flag:0 Reward: 3957.602330
+Ep: 86 Flag:0 Reward: 2076.965886
+Ep: 87 Flag:0 Reward: 3639.443127
+Ep: 88 Flag:0 Reward: 1205.947017
+Ep: 89 Flag:0 Reward: 4227.628631
+Ep: 90 Flag:0 Reward: 3197.736642
+Ep: 91 Flag:0 Reward: 3367.369835
+Out of field
+Ep: 92 Flag:-1 Reward: 643.554847
+Ep: 93 Flag:0 Reward: 4130.035244
+Ep: 94 Flag:0 Reward: 2966.641603
+Ep: 95 Flag:0 Reward: 3688.704628
+Out of field
+Ep: 96 Flag:-1 Reward: -1367.939165
+Out of field
+Ep: 97 Flag:-1 Reward: -563.891556
+Out of field
+Ep: 98 Flag:-1 Reward: 525.350702
+Out of field
+Ep: 99 Flag:-1 Reward: 2085.273754
+Out of field
+Ep: 100 Flag:-1 Reward: -230.993623
+Out of field
+Ep: 101 Flag:-1 Reward: 4187.058794
+Out of field
+Ep: 102 Flag:-1 Reward: -5032.532432
+Out of field
+Ep: 103 Flag:-1 Reward: 2135.189670
+Out of field
+Ep: 104 Flag:-1 Reward: -3717.765830
+Out of field
+Ep: 105 Flag:-1 Reward: -838.056185
+Out of field
+Ep: 106 Flag:-1 Reward: 3111.104003
+Out of field
+Ep: 107 Flag:-1 Reward: 8.024808
+Out of field
+Ep: 108 Flag:-1 Reward: -4708.042231
+Out of field
+Ep: 109 Flag:-1 Reward: -717.669794
+Goal!
+Ep: 110 Flag:1 Reward: 5717.315052
+Out of field
+Ep: 111 Flag:-1 Reward: 695.307851
+Out of field
+Ep: 112 Flag:-1 Reward: -626.488733
+Ep: 113 Flag:0 Reward: -1892.265538
+Out of field
+Ep: 114 Flag:-1 Reward: 2996.633093
+Ep: 115 Flag:0 Reward: 5723.427560
+Out of field
+Ep: 116 Flag:-1 Reward: 585.596432
+Out of field
+Ep: 117 Flag:-1 Reward: 826.691073
+Ep: 118 Flag:0 Reward: 119.219158
+Out of field
+Ep: 119 Flag:-1 Reward: 3633.396092
+Ep: 120 Flag:0 Reward: 3236.659907
+Ep: 121 Flag:0 Reward: 4624.369741
+Out of field
+Ep: 122 Flag:-1 Reward: 3963.278937
+Out of field
+Ep: 123 Flag:-1 Reward: 646.685959
+Ep: 124 Flag:0 Reward: 4419.455413
+Out of field
+Ep: 125 Flag:-1 Reward: 3454.018375
+Ep: 126 Flag:0 Reward: -544.699843
+Out of field
+Ep: 127 Flag:-1 Reward: 100.339227
+Ep: 128 Flag:0 Reward: 5438.286981
+Out of field
+Ep: 129 Flag:-1 Reward: 4117.104568
+Ep: 130 Flag:0 Reward: 6017.525686
+Out of field
+Ep: 131 Flag:-1 Reward: 900.572711
+Out of field
+Ep: 132 Flag:-1 Reward: 360.646687
+Ep: 133 Flag:0 Reward: -1567.320773
+Out of field
+Ep: 134 Flag:-1 Reward: 3362.657631
+Out of field
+Ep: 135 Flag:-1 Reward: 2102.847842
+Out of field
+Ep: 136 Flag:-1 Reward: 682.241507
+Out of field
+Ep: 137 Flag:-1 Reward: 2445.017241
+Out of field
+Ep: 138 Flag:-1 Reward: -1075.830009
+Ep: 139 Flag:0 Reward: 6346.865450
+Goal!
+Ep: 140 Flag:1 Reward: 5991.345672
+Ep: 141 Flag:0 Reward: 4312.354532
+Ep: 142 Flag:0 Reward: -900.713304
+Out of field
+Ep: 143 Flag:-1 Reward: 35.442182
+Ep: 144 Flag:0 Reward: 5566.632954
+Out of field
+Ep: 145 Flag:-1 Reward: 1782.495592
+Out of field
+Ep: 146 Flag:-1 Reward: 5027.432691
+Out of field
+Ep: 147 Flag:-1 Reward: -915.372627
+Out of field
+Ep: 148 Flag:-1 Reward: 6244.550549
+Out of field
+Ep: 149 Flag:-1 Reward: 1293.856375
+Goal!
+Ep: 150 Flag:1 Reward: 3604.575126
+Out of field
+Ep: 151 Flag:-1 Reward: 1132.170237
+Out of field
+Ep: 152 Flag:-1 Reward: 1341.430563
+Out of field
+Ep: 153 Flag:-1 Reward: 4694.713439
+Goal!
+Ep: 154 Flag:1 Reward: 4122.694214
+Ep: 155 Flag:0 Reward: 6002.770069
+Ep: 156 Flag:0 Reward: 5415.027754
+Goal!
+Ep: 157 Flag:1 Reward: 4381.176896
+Out of field
+Ep: 158 Flag:-1 Reward: 1097.398564
+Out of field
+Ep: 159 Flag:-1 Reward: 1017.501943
+Out of field
+Ep: 160 Flag:-1 Reward: 876.018433
+Ep: 161 Flag:0 Reward: 6428.702965
+Out of field
+Ep: 162 Flag:-1 Reward: -371.335765
+Out of field
+Ep: 163 Flag:-1 Reward: -195.332588
+Out of field
+Ep: 164 Flag:-1 Reward: -1250.627991
+Out of field
+Ep: 165 Flag:-1 Reward: -1159.288477
+Out of field
+Ep: 166 Flag:-1 Reward: 3828.115359
+Out of field
+Ep: 167 Flag:-1 Reward: 1418.003625
+Out of field
+Ep: 168 Flag:-1 Reward: 5163.112489
+Ep: 169 Flag:0 Reward: 3152.865469
+Out of field
+Ep: 170 Flag:-1 Reward: 925.768623
+Ep: 171 Flag:0 Reward: 2495.743552
+Out of field
+Ep: 172 Flag:-1 Reward: 1562.828758
+Out of field
+Ep: 173 Flag:-1 Reward: 2674.420725
+Out of field
+Ep: 174 Flag:-1 Reward: 1490.253915
+Out of field
+Ep: 175 Flag:-1 Reward: -1556.568721
+Out of field
+Ep: 176 Flag:-1 Reward: 3730.114000
+Out of field
+Ep: 177 Flag:-1 Reward: 765.919723
+Out of field
+Ep: 178 Flag:-1 Reward: 1606.649957
+Ep: 179 Flag:0 Reward: 3620.390530
+Out of field
+Ep: 180 Flag:-1 Reward: 1872.122199
+Out of field
+Ep: 181 Flag:-1 Reward: 1678.790409
+Out of field
+Ep: 182 Flag:-1 Reward: 110.789286
+Out of field
+Ep: 183 Flag:-1 Reward: 1840.446355
+Out of field
+Ep: 184 Flag:-1 Reward: 2931.055445
+Out of field
+Ep: 185 Flag:-1 Reward: 4546.230695
+Out of field
+Ep: 186 Flag:-1 Reward: 4806.764841
+Goal!
+Ep: 187 Flag:1 Reward: 5503.354105
+Ep: 188 Flag:0 Reward: 5576.937259
+Goal!
+Ep: 189 Flag:1 Reward: 5226.537668
+Goal!
+Ep: 190 Flag:1 Reward: 5518.205150
+Out of field
+Ep: 191 Flag:-1 Reward: -1387.175772
+Out of field
+Ep: 192 Flag:-1 Reward: -695.308519
+Out of field
+Ep: 193 Flag:-1 Reward: 1245.535587
+Out of field
+Ep: 194 Flag:-1 Reward: -422.113166
+Out of field
+Ep: 195 Flag:-1 Reward: -127.501151
+Ep: 196 Flag:0 Reward: 3514.014282
+Out of field
+Ep: 197 Flag:-1 Reward: 791.112577
+Out of field
+Ep: 198 Flag:-1 Reward: 3557.869351
+Out of field
+Ep: 199 Flag:-1 Reward: -790.036617
+Out of field
+Ep: 200 Flag:-1 Reward: 5138.934879
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 201 Flag:-1 Reward: 4442.850556
+Out of field
+Ep: 202 Flag:-1 Reward: 1976.140998
+Goal!
+Ep: 203 Flag:1 Reward: 3553.891354
+Out of field
+Ep: 204 Flag:-1 Reward: -1393.283093
+Out of field
+Ep: 205 Flag:-1 Reward: 1470.783099
+Out of field
+Ep: 206 Flag:-1 Reward: 5269.486326
+Out of field
+Ep: 207 Flag:-1 Reward: -97.296361
+Out of field
+Ep: 208 Flag:-1 Reward: 4711.103393
+Out of field
+Ep: 209 Flag:-1 Reward: 2660.881589
+Goal!
+Ep: 210 Flag:1 Reward: 6025.717082
+Out of field
+Ep: 211 Flag:-1 Reward: 116.074841
+Out of field
+Ep: 212 Flag:-1 Reward: 2720.085413
+Out of field
+Ep: 213 Flag:-1 Reward: 1336.065728
+Out of field
+Ep: 214 Flag:-1 Reward: 1960.104568
+Goal!
+Ep: 215 Flag:1 Reward: 5945.484644
+Out of field
+Ep: 216 Flag:-1 Reward: 438.773846
+Out of field
+Ep: 217 Flag:-1 Reward: 750.855944
+Goal!
+Ep: 218 Flag:1 Reward: 6613.541534
+Out of field
+Ep: 219 Flag:-1 Reward: -194.963814
+Out of field
+Ep: 220 Flag:-1 Reward: 1610.048243
+Out of field
+Ep: 221 Flag:-1 Reward: 1180.207653
+Out of field
+Ep: 222 Flag:-1 Reward: 415.029697
+Goal!
+Ep: 223 Flag:1 Reward: 5839.630213
+Goal!
+Ep: 224 Flag:1 Reward: 5881.973681
+Goal!
+Ep: 225 Flag:1 Reward: 4158.002693
+Ep: 226 Flag:0 Reward: 1496.997627
+Out of field
+Ep: 227 Flag:-1 Reward: 3037.746000
+Goal!
+Ep: 228 Flag:1 Reward: 5877.869498
+Ep: 229 Flag:0 Reward: 4590.953813
+Out of field
+Ep: 230 Flag:-1 Reward: 39.354335
+Goal!
+Ep: 231 Flag:1 Reward: 3495.361072
+Out of field
+Ep: 232 Flag:-1 Reward: 1454.178077
+Out of field
+Ep: 233 Flag:-1 Reward: 1622.654152
+Out of field
+Ep: 234 Flag:-1 Reward: 3917.445341
+Out of field
+Ep: 235 Flag:-1 Reward: 2280.418677
+Out of field
+Ep: 236 Flag:-1 Reward: 5777.241088
+Out of field
+Ep: 237 Flag:-1 Reward: 3693.585308
+Goal!
+Ep: 238 Flag:1 Reward: 5146.613239
+Out of field
+Ep: 239 Flag:-1 Reward: 3515.459243
+Out of field
+Ep: 240 Flag:-1 Reward: 2293.971130
+Out of field
+Ep: 241 Flag:-1 Reward: 5536.372300
+Out of field
+Ep: 242 Flag:-1 Reward: -866.239783
+Out of field
+Ep: 243 Flag:-1 Reward: 1791.883385
+Out of field
+Ep: 244 Flag:-1 Reward: -113.448687
+Out of field
+Ep: 245 Flag:-1 Reward: 5576.563084
+Out of field
+Ep: 246 Flag:-1 Reward: 3444.049468
+Out of field
+Ep: 247 Flag:-1 Reward: 4962.853234
+Out of field
+Ep: 248 Flag:-1 Reward: 1462.797969
+Out of field
+Ep: 249 Flag:-1 Reward: 597.660112
+Out of field
+Ep: 250 Flag:-1 Reward: -514.506191
+Out of field
+Ep: 251 Flag:-1 Reward: 1049.965535
+Out of field
+Ep: 252 Flag:-1 Reward: 1026.771976
+Out of field
+Ep: 253 Flag:-1 Reward: 4136.431386
+Goal!
+Ep: 254 Flag:1 Reward: 6281.129704
+Goal!
+Ep: 255 Flag:1 Reward: 6624.926091
+Ep: 256 Flag:0 Reward: 1984.531576
+Out of field
+Ep: 257 Flag:-1 Reward: 2311.651364
+Ep: 258 Flag:0 Reward: 2420.558384
+Ep: 259 Flag:0 Reward: 2207.126683
+Goal!
+Ep: 260 Flag:1 Reward: 6609.271217
+Out of field
+Ep: 261 Flag:-1 Reward: 2885.300954
+Out of field
+Ep: 262 Flag:-1 Reward: 4478.796233
+Out of field
+Ep: 263 Flag:-1 Reward: -72.756920
+Goal!
+Ep: 264 Flag:1 Reward: 4822.933834
+Goal!
+Ep: 265 Flag:1 Reward: 6125.176138
+Out of field
+Ep: 266 Flag:-1 Reward: 5668.859307
+Out of field
+Ep: 267 Flag:-1 Reward: 2831.022950
+Out of field
+Ep: 268 Flag:-1 Reward: -883.886246
+Out of field
+Ep: 269 Flag:-1 Reward: 4809.501821
+Out of field
+Ep: 270 Flag:-1 Reward: 207.945708
+Goal!
+Ep: 271 Flag:1 Reward: 5413.936162
+Out of field
+Ep: 272 Flag:-1 Reward: -542.999730
+Out of field
+Ep: 273 Flag:-1 Reward: 2383.872760
+Out of field
+Ep: 274 Flag:-1 Reward: 3421.416851
+Out of field
+Ep: 275 Flag:-1 Reward: -213.392031
+Out of field
+Ep: 276 Flag:-1 Reward: 380.908244
+Out of field
+Ep: 277 Flag:-1 Reward: 3984.725117
+Out of field
+Ep: 278 Flag:-1 Reward: 1316.818685
+Goal!
+Ep: 279 Flag:1 Reward: 5230.473042
+Out of field
+Ep: 280 Flag:-1 Reward: 3241.960072
+Out of field
+Ep: 281 Flag:-1 Reward: 818.022815
+Goal!
+Ep: 282 Flag:1 Reward: 4176.600183
+Goal!
+Ep: 283 Flag:1 Reward: 4761.414018
+Out of field
+Ep: 284 Flag:-1 Reward: -536.642737
+Out of field
+Ep: 285 Flag:-1 Reward: 4698.600354
+Out of field
+Ep: 286 Flag:-1 Reward: 3264.957752
+Goal!
+Ep: 287 Flag:1 Reward: 2286.036295
+Goal!
+Ep: 288 Flag:1 Reward: 6770.122402
+Out of field
+Ep: 289 Flag:-1 Reward: 1383.978915
+Out of field
+Ep: 290 Flag:-1 Reward: 229.901173
+Ep: 291 Flag:0 Reward: 3588.100640
+Out of field
+Ep: 292 Flag:-1 Reward: 194.842559
+Out of field
+Ep: 293 Flag:-1 Reward: 1255.712102
+Out of field
+Ep: 294 Flag:-1 Reward: 1909.935828
+Out of field
+Ep: 295 Flag:-1 Reward: 2802.789173
+Out of field
+Ep: 296 Flag:-1 Reward: 1711.360194
+Out of field
+Ep: 297 Flag:-1 Reward: 4338.549738
+Out of field
+Ep: 298 Flag:-1 Reward: 2587.636423
+Out of field
+Ep: 299 Flag:-1 Reward: 2305.319095
+Out of field
+Ep: 300 Flag:-1 Reward: 1397.678741
+Ep: 301 Flag:0 Reward: 1971.763609
+Out of field
+Ep: 302 Flag:-1 Reward: 4119.492072
+Out of field
+Ep: 303 Flag:-1 Reward: 1009.657163
+Out of field
+Ep: 304 Flag:-1 Reward: -45.289108
+Goal!
+Ep: 305 Flag:1 Reward: 6219.247293
+Out of field
+Ep: 306 Flag:-1 Reward: 787.642831
+Ep: 307 Flag:0 Reward: 4906.778411
+Out of field
+Ep: 308 Flag:-1 Reward: 2309.914096
+Out of field
+Ep: 309 Flag:-1 Reward: 4228.740636
+Out of field
+Ep: 310 Flag:-1 Reward: 2718.210703
+Goal!
+Ep: 311 Flag:1 Reward: 5647.600659
+Out of field
+Ep: 312 Flag:-1 Reward: 1915.715356
+Goal!
+Ep: 313 Flag:1 Reward: 5059.067677
+Out of field
+Ep: 314 Flag:-1 Reward: 1834.306554
+Out of field
+Ep: 315 Flag:-1 Reward: 879.451653
+Out of field
+Ep: 316 Flag:-1 Reward: 2096.354515
+Out of field
+Ep: 317 Flag:-1 Reward: -127.081922
+Out of field
+Ep: 318 Flag:-1 Reward: 991.490974
+Out of field
+Ep: 319 Flag:-1 Reward: 2981.516340
+Out of field
+Ep: 320 Flag:-1 Reward: 2195.647670
+Out of field
+Ep: 321 Flag:-1 Reward: 1859.169119
+Goal!
+Ep: 322 Flag:1 Reward: 5878.763459
+Goal!
+Ep: 323 Flag:1 Reward: 4104.825217
+Goal!
+Ep: 324 Flag:1 Reward: 4801.610489
+Out of field
+Ep: 325 Flag:-1 Reward: 1870.779122
+Goal!
+Ep: 326 Flag:1 Reward: 3286.670418
+Out of field
+Ep: 327 Flag:-1 Reward: 834.579700
+Out of field
+Ep: 328 Flag:-1 Reward: 6116.888967
+Out of field
+Ep: 329 Flag:-1 Reward: 5769.393992
+Out of field
+Ep: 330 Flag:-1 Reward: 453.883482
+Out of field
+Ep: 331 Flag:-1 Reward: 942.923968
+Out of field
+Ep: 332 Flag:-1 Reward: 2871.105229
+Out of field
+Ep: 333 Flag:-1 Reward: -457.025322
+Out of field
+Ep: 334 Flag:-1 Reward: 2247.738793
+Out of field
+Ep: 335 Flag:-1 Reward: 1095.139715
+Out of field
+Ep: 336 Flag:-1 Reward: 2178.803776
+Goal!
+Ep: 337 Flag:1 Reward: 6407.562820
+Out of field
+Ep: 338 Flag:-1 Reward: 195.842862
+Out of field
+Ep: 339 Flag:-1 Reward: 969.923660
+Ep: 340 Flag:0 Reward: 5404.647104
+Out of field
+Ep: 341 Flag:-1 Reward: 5359.199924
+Out of field
+Ep: 342 Flag:-1 Reward: 3143.391211
+Out of field
+Ep: 343 Flag:-1 Reward: 4969.769093
+Out of field
+Ep: 344 Flag:-1 Reward: 117.444814
+Goal!
+Ep: 345 Flag:1 Reward: 5995.441390
+Out of field
+Ep: 346 Flag:-1 Reward: 4713.253174
+Out of field
+Ep: 347 Flag:-1 Reward: 270.805412
+Out of field
+Ep: 348 Flag:-1 Reward: 5256.615830
+Out of field
+Ep: 349 Flag:-1 Reward: 1956.255123
+Out of field
+Ep: 350 Flag:-1 Reward: 517.945295
+Goal!
+Ep: 351 Flag:1 Reward: 5760.926452
+Out of field
+Ep: 352 Flag:-1 Reward: 1376.012523
+Out of field
+Ep: 353 Flag:-1 Reward: -851.726319
+Out of field
+Ep: 354 Flag:-1 Reward: 1251.054117
+Out of field
+Ep: 355 Flag:-1 Reward: 3152.799831
+Out of field
+Ep: 356 Flag:-1 Reward: 4763.815491
+Out of field
+Ep: 357 Flag:-1 Reward: 2487.668083
+Goal!
+Ep: 358 Flag:1 Reward: 5183.279068
+Out of field
+Ep: 359 Flag:-1 Reward: 4630.436166
+Out of field
+Ep: 360 Flag:-1 Reward: 1764.231938
+Out of field
+Ep: 361 Flag:-1 Reward: 3503.269270
+Ep: 362 Flag:0 Reward: 4432.936244
+Ep: 363 Flag:0 Reward: 4805.360878
+Ep: 364 Flag:0 Reward: 5331.868009
+Ep: 365 Flag:0 Reward: 4167.175503
+Out of field
+Ep: 366 Flag:-1 Reward: 1040.305557
+Ep: 367 Flag:0 Reward: 5006.066412
+Goal!
+Ep: 368 Flag:1 Reward: 4495.298620
+Ep: 369 Flag:0 Reward: 5123.648762
+Ep: 370 Flag:0 Reward: 4530.436458
+Ep: 371 Flag:0 Reward: 4430.356150
+Ep: 372 Flag:0 Reward: 5406.699808
+Out of field
+Ep: 373 Flag:-1 Reward: 420.069308
+Ep: 374 Flag:0 Reward: 3732.855844
+Ep: 375 Flag:0 Reward: 3725.259742
+Ep: 376 Flag:0 Reward: 3207.717079
+Ep: 377 Flag:0 Reward: 3129.592405
+Ep: 378 Flag:0 Reward: 4447.437149
+Ep: 379 Flag:0 Reward: 3813.106759
+Out of field
+Ep: 380 Flag:-1 Reward: 2027.184917
+Goal!
+Ep: 381 Flag:1 Reward: 4239.667954
+Out of field
+Ep: 382 Flag:-1 Reward: 5023.629992
+Goal!
+Ep: 383 Flag:1 Reward: 2265.605740
+Out of field
+Ep: 384 Flag:-1 Reward: 5759.532523
+Goal!
+Ep: 385 Flag:1 Reward: 4183.440433
+Out of field
+Ep: 386 Flag:-1 Reward: 3769.470787
+Out of field
+Ep: 387 Flag:-1 Reward: 3756.122917
+Ep: 388 Flag:0 Reward: 5659.524125
+Goal!
+Ep: 389 Flag:1 Reward: 6129.577110
+Out of field
+Ep: 390 Flag:-1 Reward: 4258.390273
+Goal!
+Ep: 391 Flag:1 Reward: 4611.153100
+Goal!
+Ep: 392 Flag:1 Reward: 5961.532015
+Ep: 393 Flag:0 Reward: 3124.952855
+Goal!
+Ep: 394 Flag:1 Reward: 3105.187915
+Out of field
+Ep: 395 Flag:-1 Reward: 4341.262115
+Out of field
+Ep: 396 Flag:-1 Reward: 4675.780071
+Out of field
+Ep: 397 Flag:-1 Reward: 5690.559206
+Out of field
+Ep: 398 Flag:-1 Reward: 5175.858596
+Out of field
+Ep: 399 Flag:-1 Reward: 5046.905127
+Goal!
+Ep: 400 Flag:1 Reward: 5184.966667
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Goal!
+Ep: 401 Flag:1 Reward: 5925.158486
+Out of field
+Ep: 402 Flag:-1 Reward: 5530.491347
+Out of field
+Ep: 403 Flag:-1 Reward: 1970.983836
+Out of field
+Ep: 404 Flag:-1 Reward: 3176.406190
+Out of field
+Ep: 405 Flag:-1 Reward: 2936.411949
+Out of field
+Ep: 406 Flag:-1 Reward: 1484.855396
+Out of field
+Ep: 407 Flag:-1 Reward: 3266.991915
+Goal!
+Ep: 408 Flag:1 Reward: 2123.122780
+Goal!
+Ep: 409 Flag:1 Reward: 6257.031268
+Out of field
+Ep: 410 Flag:-1 Reward: 3568.269622
+Out of field
+Ep: 411 Flag:-1 Reward: 4494.892944
+Ep: 412 Flag:0 Reward: 5291.710015
+Out of field
+Ep: 413 Flag:-1 Reward: 2434.884634
+Goal!
+Ep: 414 Flag:1 Reward: 5811.939382
+Out of field
+Ep: 415 Flag:-1 Reward: 2637.011375
+Ep: 416 Flag:0 Reward: 3383.243103
+Ep: 417 Flag:0 Reward: 4422.803642
+Out of field
+Ep: 418 Flag:-1 Reward: 4554.436458
+Out of field
+Ep: 419 Flag:-1 Reward: -92.801951
+Ep: 420 Flag:0 Reward: 3010.513875
+Ep: 421 Flag:0 Reward: 5778.675772
+Goal!
+Ep: 422 Flag:1 Reward: 4736.568555
+Out of field
+Ep: 423 Flag:-1 Reward: 1193.357215
+Out of field
+Ep: 424 Flag:-1 Reward: 4451.653162
+Out of field
+Ep: 425 Flag:-1 Reward: 3688.431472
+Out of field
+Ep: 426 Flag:-1 Reward: 2249.056904
+Out of field
+Ep: 427 Flag:-1 Reward: 3645.357656
+Out of field
+Ep: 428 Flag:-1 Reward: 5072.945001
+Ep: 429 Flag:0 Reward: 2657.635140
+Out of field
+Ep: 430 Flag:-1 Reward: 5439.659949
+Goal!
+Ep: 431 Flag:1 Reward: 4949.286273
+Out of field
+Ep: 432 Flag:-1 Reward: 1901.815226
+Out of field
+Ep: 433 Flag:-1 Reward: 1010.760949
+Goal!
+Ep: 434 Flag:1 Reward: 6032.797762
+Out of field
+Ep: 435 Flag:-1 Reward: 1083.533045
+Goal!
+Ep: 436 Flag:1 Reward: 6336.196747
+Out of field
+Ep: 437 Flag:-1 Reward: 1582.559654
+Out of field
+Ep: 438 Flag:-1 Reward: 1327.091841
+Goal!
+Ep: 439 Flag:1 Reward: 3742.486415
+Out of field
+Ep: 440 Flag:-1 Reward: -589.159471
+Goal!
+Ep: 441 Flag:1 Reward: 5065.810737
+Goal!
+Ep: 442 Flag:1 Reward: 6509.050792
+Out of field
+Ep: 443 Flag:-1 Reward: 4492.500874
+Out of field
+Ep: 444 Flag:-1 Reward: 5107.681454
+Out of field
+Ep: 445 Flag:-1 Reward: -372.187455
+Out of field
+Ep: 446 Flag:-1 Reward: 4434.220932
+Out of field
+Ep: 447 Flag:-1 Reward: 1968.192370
+Goal!
+Ep: 448 Flag:1 Reward: 4969.604892
+Goal!
+Ep: 449 Flag:1 Reward: 3459.354229
+Goal!
+Ep: 450 Flag:1 Reward: 2918.653771
+Out of field
+Ep: 451 Flag:-1 Reward: 964.705935
+Out of field
+Ep: 452 Flag:-1 Reward: 1376.677636
+Out of field
+Ep: 453 Flag:-1 Reward: 3434.340004
+Out of field
+Ep: 454 Flag:-1 Reward: 3196.141345
+Out of field
+Ep: 455 Flag:-1 Reward: 2275.156667
+Goal!
+Ep: 456 Flag:1 Reward: 3643.406326
+Ep: 457 Flag:0 Reward: 4151.404832
+Out of field
+Ep: 458 Flag:-1 Reward: 1631.679948
+Out of field
+Ep: 459 Flag:-1 Reward: 2522.077941
+Out of field
+Ep: 460 Flag:-1 Reward: 1927.775721
+Out of field
+Ep: 461 Flag:-1 Reward: 3804.994571
+Out of field
+Ep: 462 Flag:-1 Reward: 3611.046508
+Ep: 463 Flag:0 Reward: 5069.553477
+Ep: 464 Flag:0 Reward: 4489.966444
+Ep: 465 Flag:0 Reward: 3242.846409
+Out of field
+Ep: 466 Flag:-1 Reward: 3068.051833
+Out of field
+Ep: 467 Flag:-1 Reward: 528.557692
+Out of field
+Ep: 468 Flag:-1 Reward: 615.308935
+Out of field
+Ep: 469 Flag:-1 Reward: 3595.551817
+Out of field
+Ep: 470 Flag:-1 Reward: 234.516977
+Out of field
+Ep: 471 Flag:-1 Reward: 4816.865159
+Out of field
+Ep: 472 Flag:-1 Reward: 5428.552284
+Out of field
+Ep: 473 Flag:-1 Reward: 3496.424733
+Goal!
+Ep: 474 Flag:1 Reward: 5488.675955
+Out of field
+Ep: 475 Flag:-1 Reward: -1415.508127
+Out of field
+Ep: 476 Flag:-1 Reward: 4171.148114
+Out of field
+Ep: 477 Flag:-1 Reward: 2917.830414
+Out of field
+Ep: 478 Flag:-1 Reward: 3761.636857
+Out of field
+Ep: 479 Flag:-1 Reward: 5483.628021
+Goal!
+Ep: 480 Flag:1 Reward: 5987.404793
+Out of field
+Ep: 481 Flag:-1 Reward: 1185.148898
+Out of field
+Ep: 482 Flag:-1 Reward: -93.562926
+Out of field
+Ep: 483 Flag:-1 Reward: 1566.903238
+Goal!
+Ep: 484 Flag:1 Reward: 5486.535423
+Out of field
+Ep: 485 Flag:-1 Reward: 1256.494658
+Out of field
+Ep: 486 Flag:-1 Reward: 5021.529706
+Out of field
+Ep: 487 Flag:-1 Reward: 538.591520
+Out of field
+Ep: 488 Flag:-1 Reward: 2148.067782
+Out of field
+Ep: 489 Flag:-1 Reward: 5278.381819
+Out of field
+Ep: 490 Flag:-1 Reward: -704.699695
+Goal!
+Ep: 491 Flag:1 Reward: 4993.691097
+Out of field
+Ep: 492 Flag:-1 Reward: 3809.320704
+Goal!
+Ep: 493 Flag:1 Reward: 6609.115368
+Out of field
+Ep: 494 Flag:-1 Reward: 211.868470
+Out of field
+Ep: 495 Flag:-1 Reward: 3071.623933
+Goal!
+Ep: 496 Flag:1 Reward: 5358.640039
+Goal!
+Ep: 497 Flag:1 Reward: 4769.141777
+Goal!
+Ep: 498 Flag:1 Reward: 5018.741108
+Goal!
+Ep: 499 Flag:1 Reward: 4523.483595
+Goal!
+Ep: 500 Flag:1 Reward: 4916.965652
+Out of field
+Ep: 501 Flag:-1 Reward: 6069.354221
+Out of field
+Ep: 502 Flag:-1 Reward: 4062.669855
+Out of field
+Ep: 503 Flag:-1 Reward: 701.681811
+Out of field
+Ep: 504 Flag:-1 Reward: 2904.496644
+Ep: 505 Flag:0 Reward: 5340.583719
+Ep: 506 Flag:0 Reward: 5298.598077
+Out of field
+Ep: 507 Flag:-1 Reward: 4475.559603
+Out of field
+Ep: 508 Flag:-1 Reward: -371.215768
+Goal!
+Ep: 509 Flag:1 Reward: 3772.571986
+Out of field
+Ep: 510 Flag:-1 Reward: 5129.933226
+Out of field
+Ep: 511 Flag:-1 Reward: 3507.230788
+Out of field
+Ep: 512 Flag:-1 Reward: 4126.578771
+Out of field
+Ep: 513 Flag:-1 Reward: 1595.190230
+Out of field
+Ep: 514 Flag:-1 Reward: 2337.183351
+Goal!
+Ep: 515 Flag:1 Reward: 3366.086839
+Goal!
+Ep: 516 Flag:1 Reward: 2741.223521
+Goal!
+Ep: 517 Flag:1 Reward: 6388.075329
+Goal!
+Ep: 518 Flag:1 Reward: 6327.932186
+Out of field
+Ep: 519 Flag:-1 Reward: 5066.312028
+Goal!
+Ep: 520 Flag:1 Reward: 5680.145513
+Out of field
+Ep: 521 Flag:-1 Reward: 5954.734945
+Goal!
+Ep: 522 Flag:1 Reward: 6120.857282
+Ep: 523 Flag:0 Reward: 5447.880719
+Out of field
+Ep: 524 Flag:-1 Reward: 3101.426228
+Ep: 525 Flag:0 Reward: 4753.275744
+Out of field
+Ep: 526 Flag:-1 Reward: -35.835820
+Out of field
+Ep: 527 Flag:-1 Reward: 1164.259437
+Ep: 528 Flag:0 Reward: 4150.079486
+Out of field
+Ep: 529 Flag:-1 Reward: 2421.549993
+Out of field
+Ep: 530 Flag:-1 Reward: 2680.160967
+Ep: 531 Flag:0 Reward: 5807.467224
+Out of field
+Ep: 532 Flag:-1 Reward: -646.294708
+Out of field
+Ep: 533 Flag:-1 Reward: 3999.859373
+Ep: 534 Flag:0 Reward: 4959.424610
+Ep: 535 Flag:0 Reward: 5552.583299
+Out of field
+Ep: 536 Flag:-1 Reward: 2377.921883
+Out of field
+Ep: 537 Flag:-1 Reward: 2104.500103
+Ep: 538 Flag:0 Reward: 2971.834028
+Out of field
+Ep: 539 Flag:-1 Reward: 1848.716412
+Out of field
+Ep: 540 Flag:-1 Reward: 4178.273522
+Ep: 541 Flag:0 Reward: 4061.246658
+Ep: 542 Flag:0 Reward: 4376.109060
+Goal!
+Ep: 543 Flag:1 Reward: 4129.201103
+Ep: 544 Flag:0 Reward: 4177.758827
+Ep: 545 Flag:0 Reward: 6193.594910
+Ep: 546 Flag:0 Reward: 5059.508863
+Ep: 547 Flag:0 Reward: 5280.656947
+Out of field
+Ep: 548 Flag:-1 Reward: 421.452226
+Ep: 549 Flag:0 Reward: 4214.610293
+Ep: 550 Flag:0 Reward: 6012.322387
+Ep: 551 Flag:0 Reward: 5830.070226
+Out of field
+Ep: 552 Flag:-1 Reward: 4732.472847
+Out of field
+Ep: 553 Flag:-1 Reward: 2618.471712
+Ep: 554 Flag:0 Reward: 5482.665016
+Ep: 555 Flag:0 Reward: 6102.397474
+Ep: 556 Flag:0 Reward: 5709.362847
+Goal!
+Ep: 557 Flag:1 Reward: 3333.369931
+Out of field
+Ep: 558 Flag:-1 Reward: 350.390608
+Goal!
+Ep: 559 Flag:1 Reward: 4957.429318
+Ep: 560 Flag:0 Reward: 5123.046163
+Goal!
+Ep: 561 Flag:1 Reward: 5945.420113
+Ep: 562 Flag:0 Reward: 6618.538467
+Out of field
+Ep: 563 Flag:-1 Reward: 1739.171305
+Out of field
+Ep: 564 Flag:-1 Reward: 2246.626225
+Out of field
+Ep: 565 Flag:-1 Reward: -292.739273
+Goal!
+Ep: 566 Flag:1 Reward: 4407.842209
+Goal!
+Ep: 567 Flag:1 Reward: 4590.858689
+Ep: 568 Flag:0 Reward: 6153.497261
+Ep: 569 Flag:0 Reward: 4697.559925
+Out of field
+Ep: 570 Flag:-1 Reward: 5126.008189
+Ep: 571 Flag:0 Reward: 5544.708364
+Out of field
+Ep: 572 Flag:-1 Reward: 664.597189
+Out of field
+Ep: 573 Flag:-1 Reward: 3377.301201
+Out of field
+Ep: 574 Flag:-1 Reward: 5108.109609
+Goal!
+Ep: 575 Flag:1 Reward: 4637.293659
+Out of field
+Ep: 576 Flag:-1 Reward: 4788.394763
+Out of field
+Ep: 577 Flag:-1 Reward: 3638.041504
+Goal!
+Ep: 578 Flag:1 Reward: 6188.263829
+Ep: 579 Flag:0 Reward: 5196.899308
+Out of field
+Ep: 580 Flag:-1 Reward: 2879.628709
+Ep: 581 Flag:0 Reward: 6625.835325
+Ep: 582 Flag:0 Reward: 5157.272638
+Goal!
+Ep: 583 Flag:1 Reward: 4801.558424
+Out of field
+Ep: 584 Flag:-1 Reward: 1754.037632
+Goal!
+Ep: 585 Flag:1 Reward: 5787.213421
+Ep: 586 Flag:0 Reward: 6535.129570
+Out of field
+Ep: 587 Flag:-1 Reward: -639.563622
+Out of field
+Ep: 588 Flag:-1 Reward: 3739.080798
+Out of field
+Ep: 589 Flag:-1 Reward: 605.062483
+Out of field
+Ep: 590 Flag:-1 Reward: 3292.679452
+Ep: 591 Flag:0 Reward: 5372.061342
+Out of field
+Ep: 592 Flag:-1 Reward: 1193.594119
+Out of field
+Ep: 593 Flag:-1 Reward: 2103.901415
+Out of field
+Ep: 594 Flag:-1 Reward: 1310.429969
+Out of field
+Ep: 595 Flag:-1 Reward: 140.376881
+Ep: 596 Flag:0 Reward: 5433.127324
+Out of field
+Ep: 597 Flag:-1 Reward: 4454.204002
+Out of field
+Ep: 598 Flag:-1 Reward: 1282.259391
+Out of field
+Ep: 599 Flag:-1 Reward: 2976.989785
+Goal!
+Ep: 600 Flag:1 Reward: 6362.407369
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 601 Flag:-1 Reward: 4766.932283
+Out of field
+Ep: 602 Flag:-1 Reward: 371.243260
+Goal!
+Ep: 603 Flag:1 Reward: 5115.915934
+Out of field
+Ep: 604 Flag:-1 Reward: 418.937007
+Out of field
+Ep: 605 Flag:-1 Reward: 1935.709993
+Out of field
+Ep: 606 Flag:-1 Reward: -1361.208650
+Out of field
+Ep: 607 Flag:-1 Reward: 4041.363934
+Ep: 608 Flag:0 Reward: 4475.908188
+Out of field
+Ep: 609 Flag:-1 Reward: 4701.951855
+Out of field
+Ep: 610 Flag:-1 Reward: 2321.661134
+Out of field
+Ep: 611 Flag:-1 Reward: 480.935076
+Out of field
+Ep: 612 Flag:-1 Reward: 498.215094
+Out of field
+Ep: 613 Flag:-1 Reward: 692.813431
+Ep: 614 Flag:0 Reward: 6198.632935
+Goal!
+Ep: 615 Flag:1 Reward: 3499.279205
+Ep: 616 Flag:0 Reward: 4923.268121
+Out of field
+Ep: 617 Flag:-1 Reward: 1833.370716
+Out of field
+Ep: 618 Flag:-1 Reward: 4207.013935
+Ep: 619 Flag:0 Reward: 4914.748782
+Ep: 620 Flag:0 Reward: 4315.083649
+Ep: 621 Flag:0 Reward: 5592.499628
+Out of field
+Ep: 622 Flag:-1 Reward: -415.486839
+Goal!
+Ep: 623 Flag:1 Reward: 6417.129880
+Ep: 624 Flag:0 Reward: 1770.014989
+Ep: 625 Flag:0 Reward: 3409.413764
+Out of field
+Ep: 626 Flag:-1 Reward: 2665.728786
+Goal!
+Ep: 627 Flag:1 Reward: 5818.403864
+Goal!
+Ep: 628 Flag:1 Reward: 4603.785149
+Goal!
+Ep: 629 Flag:1 Reward: 6312.890426
+Out of field
+Ep: 630 Flag:-1 Reward: 940.530276
+Goal!
+Ep: 631 Flag:1 Reward: 5866.634942
+Out of field
+Ep: 632 Flag:-1 Reward: 1154.307837
+Goal!
+Ep: 633 Flag:1 Reward: 6633.008568
+Ep: 634 Flag:0 Reward: 2242.664209
+Out of field
+Ep: 635 Flag:-1 Reward: 541.842328
+Out of field
+Ep: 636 Flag:-1 Reward: 1837.117035
+Goal!
+Ep: 637 Flag:1 Reward: 3829.166814
+Ep: 638 Flag:0 Reward: 3547.073972
+Out of field
+Ep: 639 Flag:-1 Reward: 5378.604114
+Out of field
+Ep: 640 Flag:-1 Reward: 1035.546379
+Out of field
+Ep: 641 Flag:-1 Reward: 760.525469
+Out of field
+Ep: 642 Flag:-1 Reward: -988.537318
+Ep: 643 Flag:0 Reward: 1051.792681
+Out of field
+Ep: 644 Flag:-1 Reward: -289.636426
+Goal!
+Ep: 645 Flag:1 Reward: 5176.711012
+Ep: 646 Flag:0 Reward: 1275.138394
+Out of field
+Ep: 647 Flag:-1 Reward: -62.776745
+Ep: 648 Flag:0 Reward: 5320.433241
+Out of field
+Ep: 649 Flag:-1 Reward: 3261.881613
+Out of field
+Ep: 650 Flag:-1 Reward: 3694.405218
+Out of field
+Ep: 651 Flag:-1 Reward: 1970.757750
+Ep: 652 Flag:0 Reward: 1848.939986
+Ep: 653 Flag:0 Reward: 1708.637131
+Out of field
+Ep: 654 Flag:-1 Reward: 3834.108729
+Ep: 655 Flag:0 Reward: -171.032689
+Out of field
+Ep: 656 Flag:-1 Reward: 361.362439
+Out of field
+Ep: 657 Flag:-1 Reward: 2996.931175
+Out of field
+Ep: 658 Flag:-1 Reward: 2447.553557
+Ep: 659 Flag:0 Reward: 2670.236034
+Out of field
+Ep: 660 Flag:-1 Reward: 5963.272539
+Out of field
+Ep: 661 Flag:-1 Reward: -682.552155
+Goal!
+Ep: 662 Flag:1 Reward: 4320.275449
+Ep: 663 Flag:0 Reward: 435.300915
+Out of field
+Ep: 664 Flag:-1 Reward: 4110.505469
+Out of field
+Ep: 665 Flag:-1 Reward: 4878.674814
+Goal!
+Ep: 666 Flag:1 Reward: 6264.821487
+Goal!
+Ep: 667 Flag:1 Reward: 4805.702659
+Out of field
+Ep: 668 Flag:-1 Reward: -643.047474
+Out of field
+Ep: 669 Flag:-1 Reward: -464.285689
+Goal!
+Ep: 670 Flag:1 Reward: 3762.051691
+Goal!
+Ep: 671 Flag:1 Reward: 5292.399618
+Out of field
+Ep: 672 Flag:-1 Reward: -701.024833
+Out of field
+Ep: 673 Flag:-1 Reward: -770.747846
+Out of field
+Ep: 674 Flag:-1 Reward: -507.557391
+Out of field
+Ep: 675 Flag:-1 Reward: 2676.724470
+Ep: 676 Flag:0 Reward: 156.376363
+Goal!
+Ep: 677 Flag:1 Reward: 6619.814009
+Out of field
+Ep: 678 Flag:-1 Reward: -375.628022
+Out of field
+Ep: 679 Flag:-1 Reward: -444.631001
+Out of field
+Ep: 680 Flag:-1 Reward: -1019.204723
+Out of field
+Ep: 681 Flag:-1 Reward: 4198.723605
+Out of field
+Ep: 682 Flag:-1 Reward: 1735.373174
+Goal!
+Ep: 683 Flag:1 Reward: 4494.166035
+Goal!
+Ep: 684 Flag:1 Reward: 5882.908127
+Out of field
+Ep: 685 Flag:-1 Reward: -309.263827
+Out of field
+Ep: 686 Flag:-1 Reward: -1616.571317
+Ep: 687 Flag:0 Reward: 488.639071
+Goal!
+Ep: 688 Flag:1 Reward: 6020.073449
+Ep: 689 Flag:0 Reward: -1286.166219
+Out of field
+Ep: 690 Flag:-1 Reward: 2003.606328
+Goal!
+Ep: 691 Flag:1 Reward: 5569.057964
+Out of field
+Ep: 692 Flag:-1 Reward: 5382.129137
+Goal!
+Ep: 693 Flag:1 Reward: 3721.778935
+Out of field
+Ep: 694 Flag:-1 Reward: -555.776821
+Out of field
+Ep: 695 Flag:-1 Reward: -61.706120
+Ep: 696 Flag:0 Reward: -162.808176
+Out of field
+Ep: 697 Flag:-1 Reward: 3840.635598
+Ep: 698 Flag:0 Reward: 1319.290166
+Ep: 699 Flag:0 Reward: 1287.040093
+Ep: 700 Flag:0 Reward: 1532.834670
+Ep: 701 Flag:0 Reward: 3831.244091
+Out of field
+Ep: 702 Flag:-1 Reward: 2798.846885
+Ep: 703 Flag:0 Reward: -1019.018203
+Ep: 704 Flag:0 Reward: -1121.576511
+Out of field
+Ep: 705 Flag:-1 Reward: 2046.055552
+Ep: 706 Flag:0 Reward: -1177.310372
+Ep: 707 Flag:0 Reward: -1456.509912
+Goal!
+Ep: 708 Flag:1 Reward: 2317.143673
+Out of field
+Ep: 709 Flag:-1 Reward: 3737.729831
+Ep: 710 Flag:0 Reward: 2118.303132
+Ep: 711 Flag:0 Reward: -814.535349
+Out of field
+Ep: 712 Flag:-1 Reward: 947.916801
+Ep: 713 Flag:0 Reward: 1700.439194
+Ep: 714 Flag:0 Reward: 634.714630
+Ep: 715 Flag:0 Reward: 1346.178766
+Ep: 716 Flag:0 Reward: 3413.469112
+Ep: 717 Flag:0 Reward: -1462.224854
+Ep: 718 Flag:0 Reward: 4751.109855
+Ep: 719 Flag:0 Reward: -518.711760
+Out of field
+Ep: 720 Flag:-1 Reward: -125.362174
+Out of field
+Ep: 721 Flag:-1 Reward: -1086.435750
+Out of field
+Ep: 722 Flag:-1 Reward: 1609.759103
+Ep: 723 Flag:0 Reward: 1035.784727
+Out of field
+Ep: 724 Flag:-1 Reward: -802.608832
+Ep: 725 Flag:0 Reward: -626.150457
+Ep: 726 Flag:0 Reward: -1161.303512
+Ep: 727 Flag:0 Reward: -302.000227
+Out of field
+Ep: 728 Flag:-1 Reward: -3222.106158
+Goal!
+Ep: 729 Flag:1 Reward: 5378.074436
+Ep: 730 Flag:0 Reward: 989.066031
+Ep: 731 Flag:0 Reward: 1098.848086
+Goal!
+Ep: 732 Flag:1 Reward: 3852.325838
+Ep: 733 Flag:0 Reward: -817.790292
+Ep: 734 Flag:0 Reward: 1425.169398
+Out of field
+Ep: 735 Flag:-1 Reward: 2901.096284
+Out of field
+Ep: 736 Flag:-1 Reward: 2840.827947
+Ep: 737 Flag:0 Reward: -2551.604157
+Ep: 738 Flag:0 Reward: -1800.459140
+Goal!
+Ep: 739 Flag:1 Reward: 6469.765449
+Out of field
+Ep: 740 Flag:-1 Reward: 5672.102095
+Ep: 741 Flag:0 Reward: -1189.352236
+Out of field
+Ep: 742 Flag:-1 Reward: 3185.624355
+Ep: 743 Flag:0 Reward: -30.911698
+Ep: 744 Flag:0 Reward: -1792.885773
+Out of field
+Ep: 745 Flag:-1 Reward: 6116.958627
+Ep: 746 Flag:0 Reward: 3251.004729
+Ep: 747 Flag:0 Reward: -3237.235448
+Out of field
+Ep: 748 Flag:-1 Reward: 3566.005171
+Out of field
+Ep: 749 Flag:-1 Reward: 4454.492938
+Out of field
+Ep: 750 Flag:-1 Reward: 3565.526993
+Ep: 751 Flag:0 Reward: 5218.207106
+Ep: 752 Flag:0 Reward: 4819.779387
+Out of field
+Ep: 753 Flag:-1 Reward: -2144.804096
+Ep: 754 Flag:0 Reward: 4883.479723
+Out of field
+Ep: 755 Flag:-1 Reward: -1337.871252
+Out of field
+Ep: 756 Flag:-1 Reward: 2744.245351
+Ep: 757 Flag:0 Reward: -1402.594671
+Out of field
+Ep: 758 Flag:-1 Reward: 5114.708711
+Out of field
+Ep: 759 Flag:-1 Reward: -2096.665895
+Out of field
+Ep: 760 Flag:-1 Reward: 3741.557297
+Out of field
+Ep: 761 Flag:-1 Reward: 3965.936060
+Out of field
+Ep: 762 Flag:-1 Reward: 2944.305342
+Ep: 763 Flag:0 Reward: 3596.642384
+Out of field
+Ep: 764 Flag:-1 Reward: 5373.002082
+Goal!
+Ep: 765 Flag:1 Reward: 5680.232277
+Out of field
+Ep: 766 Flag:-1 Reward: 317.519857
+Out of field
+Ep: 767 Flag:-1 Reward: 3384.746399
+Out of field
+Ep: 768 Flag:-1 Reward: 2114.647997
+Ep: 769 Flag:0 Reward: 5947.641495
+Out of field
+Ep: 770 Flag:-1 Reward: 2370.649211
+Ep: 771 Flag:0 Reward: 4849.116943
+Out of field
+Ep: 772 Flag:-1 Reward: 3763.744902
+Ep: 773 Flag:0 Reward: 4771.211931
+Out of field
+Ep: 774 Flag:-1 Reward: 2801.373793
+Ep: 775 Flag:0 Reward: -3279.611031
+Ep: 776 Flag:0 Reward: -1298.368876
+Ep: 777 Flag:0 Reward: -815.666917
+Goal!
+Ep: 778 Flag:1 Reward: 6101.617567
+Out of field
+Ep: 779 Flag:-1 Reward: 3540.743269
+Goal!
+Ep: 780 Flag:1 Reward: 5521.682787
+Out of field
+Ep: 781 Flag:-1 Reward: -608.018252
+Out of field
+Ep: 782 Flag:-1 Reward: -679.404979
+Goal!
+Ep: 783 Flag:1 Reward: 2864.091843
+Out of field
+Ep: 784 Flag:-1 Reward: 4381.912198
+Out of field
+Ep: 785 Flag:-1 Reward: 3721.269318
+Goal!
+Ep: 786 Flag:1 Reward: 5438.903584
+Ep: 787 Flag:0 Reward: 4960.604916
+Ep: 788 Flag:0 Reward: -3090.828045
+Out of field
+Ep: 789 Flag:-1 Reward: 5784.541447
+Goal!
+Ep: 790 Flag:1 Reward: 6435.121080
+Out of field
+Ep: 791 Flag:-1 Reward: -2537.846402
+Out of field
+Ep: 792 Flag:-1 Reward: 2612.435460
+Ep: 793 Flag:0 Reward: -2098.802955
+Out of field
+Ep: 794 Flag:-1 Reward: 1889.738471
+Out of field
+Ep: 795 Flag:-1 Reward: 2234.780068
+Out of field
+Ep: 796 Flag:-1 Reward: 3272.954435
+Out of field
+Ep: 797 Flag:-1 Reward: 2801.834264
+Ep: 798 Flag:0 Reward: 3594.676365
+Ep: 799 Flag:0 Reward: -2950.056811
+Out of field
+Ep: 800 Flag:-1 Reward: 1782.659733
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 801 Flag:-1 Reward: 5047.099002
+Ep: 802 Flag:0 Reward: -3140.825443
+Out of field
+Ep: 803 Flag:-1 Reward: 2129.119376
+Out of field
+Ep: 804 Flag:-1 Reward: 3833.754338
+Ep: 805 Flag:0 Reward: 6127.187086
+Out of field
+Ep: 806 Flag:-1 Reward: 4663.970297
+Out of field
+Ep: 807 Flag:-1 Reward: 5119.431569
+Out of field
+Ep: 808 Flag:-1 Reward: 4733.301275
+Goal!
+Ep: 809 Flag:1 Reward: 4175.036123
+Out of field
+Ep: 810 Flag:-1 Reward: 4736.082122
+Goal!
+Ep: 811 Flag:1 Reward: 6852.206365
+Goal!
+Ep: 812 Flag:1 Reward: 6966.868690
+Goal!
+Ep: 813 Flag:1 Reward: 5456.738742
+Ep: 814 Flag:0 Reward: 1723.538036
+Out of field
+Ep: 815 Flag:-1 Reward: 2877.877984
+Goal!
+Ep: 816 Flag:1 Reward: 6230.500911
+Ep: 817 Flag:0 Reward: -3707.590236
+Ep: 818 Flag:0 Reward: 355.265301
+Goal!
+Ep: 819 Flag:1 Reward: 6645.927356
+Out of field
+Ep: 820 Flag:-1 Reward: 2533.441274
+Ep: 821 Flag:0 Reward: 1584.898560
+Out of field
+Ep: 822 Flag:-1 Reward: 1870.451727
+Out of field
+Ep: 823 Flag:-1 Reward: 2129.458144
+Out of field
+Ep: 824 Flag:-1 Reward: 5551.897501
+Out of field
+Ep: 825 Flag:-1 Reward: 1198.348576
+Ep: 826 Flag:0 Reward: -2818.422171
+Goal!
+Ep: 827 Flag:1 Reward: 6396.555275
+Out of field
+Ep: 828 Flag:-1 Reward: 4460.128715
+Out of field
+Ep: 829 Flag:-1 Reward: 3854.220668
+Out of field
+Ep: 830 Flag:-1 Reward: 4824.313089
+Goal!
+Ep: 831 Flag:1 Reward: 5804.596104
+Ep: 832 Flag:0 Reward: -3022.957659
+Out of field
+Ep: 833 Flag:-1 Reward: 967.403698
+Out of field
+Ep: 834 Flag:-1 Reward: 1921.284261
+Goal!
+Ep: 835 Flag:1 Reward: 5712.694592
+Out of field
+Ep: 836 Flag:-1 Reward: 3386.167152
+Goal!
+Ep: 837 Flag:1 Reward: 6346.868995
+Goal!
+Ep: 838 Flag:1 Reward: 2183.791058
+Out of field
+Ep: 839 Flag:-1 Reward: 3540.616580
+Out of field
+Ep: 840 Flag:-1 Reward: 2230.882616
+Out of field
+Ep: 841 Flag:-1 Reward: 2495.638399
+Out of field
+Ep: 842 Flag:-1 Reward: 2062.265756
+Goal!
+Ep: 843 Flag:1 Reward: 5649.493783
+Goal!
+Ep: 844 Flag:1 Reward: 4582.598947
+Out of field
+Ep: 845 Flag:-1 Reward: 2174.750754
+Out of field
+Ep: 846 Flag:-1 Reward: 2803.704714
+Out of field
+Ep: 847 Flag:-1 Reward: 4658.722122
+Ep: 848 Flag:0 Reward: 507.144307
+Out of field
+Ep: 849 Flag:-1 Reward: 644.469240
+Out of field
+Ep: 850 Flag:-1 Reward: 117.973993
+Out of field
+Ep: 851 Flag:-1 Reward: 1296.874719
+Out of field
+Ep: 852 Flag:-1 Reward: -1357.134263
+Out of field
+Ep: 853 Flag:-1 Reward: 2396.558099
+Goal!
+Ep: 854 Flag:1 Reward: 6698.914920
+Out of field
+Ep: 855 Flag:-1 Reward: 750.891669
+Out of field
+Ep: 856 Flag:-1 Reward: -481.544774
+Out of field
+Ep: 857 Flag:-1 Reward: -363.073636
+Goal!
+Ep: 858 Flag:1 Reward: 5552.070060
+Out of field
+Ep: 859 Flag:-1 Reward: 2067.851391
+Goal!
+Ep: 860 Flag:1 Reward: 4333.768781
+Goal!
+Ep: 861 Flag:1 Reward: 6600.397380
+Goal!
+Ep: 862 Flag:1 Reward: 6740.946377
+Out of field
+Ep: 863 Flag:-1 Reward: 1689.691265
+Goal!
+Ep: 864 Flag:1 Reward: 5478.722965
+Goal!
+Ep: 865 Flag:1 Reward: 3762.709098
+Out of field
+Ep: 866 Flag:-1 Reward: 2897.920100
+Goal!
+Ep: 867 Flag:1 Reward: 5126.906297
+Goal!
+Ep: 868 Flag:1 Reward: 6377.350175
+Out of field
+Ep: 869 Flag:-1 Reward: 2070.018295
+Goal!
+Ep: 870 Flag:1 Reward: 6347.176700
+Goal!
+Ep: 871 Flag:1 Reward: 6457.986657
+Ep: 872 Flag:0 Reward: -890.832781
+Out of field
+Ep: 873 Flag:-1 Reward: 645.968015
+Goal!
+Ep: 874 Flag:1 Reward: 5737.197510
+Out of field
+Ep: 875 Flag:-1 Reward: 3520.479941
+Out of field
+Ep: 876 Flag:-1 Reward: 6145.117556
+Out of field
+Ep: 877 Flag:-1 Reward: 500.882329
+Out of field
+Ep: 878 Flag:-1 Reward: 1594.218476
+Goal!
+Ep: 879 Flag:1 Reward: 2657.708421
+Out of field
+Ep: 880 Flag:-1 Reward: 3752.550515
+Ep: 881 Flag:0 Reward: -377.683369
+Goal!
+Ep: 882 Flag:1 Reward: 5429.554793
+Out of field
+Ep: 883 Flag:-1 Reward: -143.278400
+Out of field
+Ep: 884 Flag:-1 Reward: 1411.117544
+Out of field
+Ep: 885 Flag:-1 Reward: 6261.021533
+Out of field
+Ep: 886 Flag:-1 Reward: 2213.236570
+Goal!
+Ep: 887 Flag:1 Reward: 5545.348399
+Out of field
+Ep: 888 Flag:-1 Reward: 623.153940
+Out of field
+Ep: 889 Flag:-1 Reward: -1413.537216
+Out of field
+Ep: 890 Flag:-1 Reward: 3749.251703
+Ep: 891 Flag:0 Reward: -3090.717304
+Ep: 892 Flag:0 Reward: 5825.537711
+Ep: 893 Flag:0 Reward: 4975.188258
+Ep: 894 Flag:0 Reward: 1294.819179
+Out of field
+Ep: 895 Flag:-1 Reward: 5535.913927
+Ep: 896 Flag:0 Reward: -3582.985070
+Out of field
+Ep: 897 Flag:-1 Reward: 1916.061116
+Ep: 898 Flag:0 Reward: 4979.494144
+Goal!
+Ep: 899 Flag:1 Reward: 5674.237305
+Goal!
+Ep: 900 Flag:1 Reward: 4965.613404
+Out of field
+Ep: 901 Flag:-1 Reward: 1257.166714
+Goal!
+Ep: 902 Flag:1 Reward: 5329.462585
+Out of field
+Ep: 903 Flag:-1 Reward: 2162.346208
+Goal!
+Ep: 904 Flag:1 Reward: 6203.993583
+Out of field
+Ep: 905 Flag:-1 Reward: 2864.998124
+Ep: 906 Flag:0 Reward: 3662.904361
+Out of field
+Ep: 907 Flag:-1 Reward: 2093.514870
+Ep: 908 Flag:0 Reward: -2524.807041
+Out of field
+Ep: 909 Flag:-1 Reward: 1313.121873
+Ep: 910 Flag:0 Reward: -1294.473469
+Goal!
+Ep: 911 Flag:1 Reward: 5896.785279
+Out of field
+Ep: 912 Flag:-1 Reward: 698.210629
+Out of field
+Ep: 913 Flag:-1 Reward: 1774.912738
+Goal!
+Ep: 914 Flag:1 Reward: 6126.763240
+Goal!
+Ep: 915 Flag:1 Reward: 5305.123977
+Out of field
+Ep: 916 Flag:-1 Reward: 3026.933618
+Out of field
+Ep: 917 Flag:-1 Reward: 5236.021276
+Goal!
+Ep: 918 Flag:1 Reward: 5655.871348
+Goal!
+Ep: 919 Flag:1 Reward: 6652.912890
+Ep: 920 Flag:0 Reward: 5282.672400
+Out of field
+Ep: 921 Flag:-1 Reward: 1346.033523
+Out of field
+Ep: 922 Flag:-1 Reward: 5751.539873
+Out of field
+Ep: 923 Flag:-1 Reward: 4531.584143
+Ep: 924 Flag:0 Reward: 530.410784
+Ep: 925 Flag:0 Reward: -335.153099
+Out of field
+Ep: 926 Flag:-1 Reward: 1299.082427
+Out of field
+Ep: 927 Flag:-1 Reward: 3641.857268
+Out of field
+Ep: 928 Flag:-1 Reward: 5171.878080
+Ep: 929 Flag:0 Reward: -2528.784857
+Out of field
+Ep: 930 Flag:-1 Reward: -542.164279
+Ep: 931 Flag:0 Reward: -3515.283722
+Out of field
+Ep: 932 Flag:-1 Reward: -1269.294475
+Goal!
+Ep: 933 Flag:1 Reward: 5970.947789
+Ep: 934 Flag:0 Reward: -1473.750046
+Ep: 935 Flag:0 Reward: -2375.501314
+Out of field
+Ep: 936 Flag:-1 Reward: 5533.331335
+Goal!
+Ep: 937 Flag:1 Reward: 6831.377228
+Out of field
+Ep: 938 Flag:-1 Reward: -288.882874
+Goal!
+Ep: 939 Flag:1 Reward: 2480.746017
+Out of field
+Ep: 940 Flag:-1 Reward: 202.639587
+Goal!
+Ep: 941 Flag:1 Reward: 2684.340122
+Goal!
+Ep: 942 Flag:1 Reward: 6811.533743
+Out of field
+Ep: 943 Flag:-1 Reward: 843.885658
+Out of field
+Ep: 944 Flag:-1 Reward: 1685.718163
+Ep: 945 Flag:0 Reward: 2969.805204
+Out of field
+Ep: 946 Flag:-1 Reward: 3047.185971
+Out of field
+Ep: 947 Flag:-1 Reward: 3922.552138
+Goal!
+Ep: 948 Flag:1 Reward: 6329.070569
+Goal!
+Ep: 949 Flag:1 Reward: 3382.588515
+Out of field
+Ep: 950 Flag:-1 Reward: 3727.012902
+Out of field
+Ep: 951 Flag:-1 Reward: 550.414142
+Goal!
+Ep: 952 Flag:1 Reward: 5462.234207
+Ep: 953 Flag:0 Reward: 2377.246364
+Ep: 954 Flag:0 Reward: -1399.352006
+Out of field
+Ep: 955 Flag:-1 Reward: 3786.731823
+Ep: 956 Flag:0 Reward: 4746.159320
+Ep: 957 Flag:0 Reward: 1009.150464
+Out of field
+Ep: 958 Flag:-1 Reward: 6343.232437
+Goal!
+Ep: 959 Flag:1 Reward: 5190.455875
+Goal!
+Ep: 960 Flag:1 Reward: 6358.261244
+Out of field
+Ep: 961 Flag:-1 Reward: 4988.745917
+Goal!
+Ep: 962 Flag:1 Reward: 4183.909783
+Goal!
+Ep: 963 Flag:1 Reward: 5828.516386
+Ep: 964 Flag:0 Reward: -443.060237
+Ep: 965 Flag:0 Reward: 5170.968456
+Out of field
+Ep: 966 Flag:-1 Reward: 3395.603178
+Out of field
+Ep: 967 Flag:-1 Reward: 1624.167824
+Ep: 968 Flag:0 Reward: 4909.417450
+Goal!
+Ep: 969 Flag:1 Reward: 6471.695006
+Ep: 970 Flag:0 Reward: 4092.246098
+Goal!
+Ep: 971 Flag:1 Reward: 6150.650200
+Goal!
+Ep: 972 Flag:1 Reward: 4352.325416
+Out of field
+Ep: 973 Flag:-1 Reward: 2597.401077
+Out of field
+Ep: 974 Flag:-1 Reward: 1886.911550
+Goal!
+Ep: 975 Flag:1 Reward: 3557.042801
+Out of field
+Ep: 976 Flag:-1 Reward: 2003.887254
+Goal!
+Ep: 977 Flag:1 Reward: 4963.611506
+Ep: 978 Flag:0 Reward: -688.859779
+Out of field
+Ep: 979 Flag:-1 Reward: 4295.771342
+Ep: 980 Flag:0 Reward: 4925.031566
+Out of field
+Ep: 981 Flag:-1 Reward: 3943.653779
+Ep: 982 Flag:0 Reward: -103.630607
+Out of field
+Ep: 983 Flag:-1 Reward: 1304.605577
+Out of field
+Ep: 984 Flag:-1 Reward: 2586.434441
+Out of field
+Ep: 985 Flag:-1 Reward: 4588.228910
+Out of field
+Ep: 986 Flag:-1 Reward: 1858.874261
+Out of field
+Ep: 987 Flag:-1 Reward: 2987.523617
+Out of field
+Ep: 988 Flag:-1 Reward: 1674.614596
+Out of field
+Ep: 989 Flag:-1 Reward: 4194.044483
+Ep: 990 Flag:0 Reward: 4275.568039
+Goal!
+Ep: 991 Flag:1 Reward: 6286.379580
+Out of field
+Ep: 992 Flag:-1 Reward: 1193.461218
+Out of field
+Ep: 993 Flag:-1 Reward: -607.908767
+Out of field
+Ep: 994 Flag:-1 Reward: 5246.047102
+Out of field
+Ep: 995 Flag:-1 Reward: 191.165364
+Ep: 996 Flag:0 Reward: 4062.346598
+Out of field
+Ep: 997 Flag:-1 Reward: 2962.965066
+Goal!
+Ep: 998 Flag:1 Reward: 3697.454527
+Out of field
+Ep: 999 Flag:-1 Reward: 3875.683336
+Out of field
+Ep: 1000 Flag:-1 Reward: 6101.891757
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 1001 Flag:-1 Reward: 360.386271
+Out of field
+Ep: 1002 Flag:-1 Reward: 163.919696
+Goal!
+Ep: 1003 Flag:1 Reward: 5872.126390
+Out of field
+Ep: 1004 Flag:-1 Reward: 3399.173791
+Ep: 1005 Flag:0 Reward: 4374.137711
+Out of field
+Ep: 1006 Flag:-1 Reward: 4228.915720
+Out of field
+Ep: 1007 Flag:-1 Reward: -55.056774
+Out of field
+Ep: 1008 Flag:-1 Reward: 4505.516063
+Ep: 1009 Flag:0 Reward: 3651.297548
+Out of field
+Ep: 1010 Flag:-1 Reward: 3265.834350
+Out of field
+Ep: 1011 Flag:-1 Reward: 3151.029046
+Out of field
+Ep: 1012 Flag:-1 Reward: 935.020769
+Ep: 1013 Flag:0 Reward: 3109.951568
+Ep: 1014 Flag:0 Reward: 3939.544799
+Goal!
+Ep: 1015 Flag:1 Reward: 5433.608002
+Out of field
+Ep: 1016 Flag:-1 Reward: 2999.323016
+Out of field
+Ep: 1017 Flag:-1 Reward: 3082.120087
+Out of field
+Ep: 1018 Flag:-1 Reward: 4455.593139
+Out of field
+Ep: 1019 Flag:-1 Reward: 2453.481652
+Out of field
+Ep: 1020 Flag:-1 Reward: 5062.380312
+Ep: 1021 Flag:0 Reward: 2587.245595
+Out of field
+Ep: 1022 Flag:-1 Reward: 3600.235528
+Out of field
+Ep: 1023 Flag:-1 Reward: 1813.130115
+Goal!
+Ep: 1024 Flag:1 Reward: 6289.248038
+Ep: 1025 Flag:0 Reward: 3126.359176
+Ep: 1026 Flag:0 Reward: 5398.758246
+Out of field
+Ep: 1027 Flag:-1 Reward: 4396.234535
+Out of field
+Ep: 1028 Flag:-1 Reward: 1536.257279
+Out of field
+Ep: 1029 Flag:-1 Reward: 5706.061215
+Goal!
+Ep: 1030 Flag:1 Reward: 6153.054308
+Out of field
+Ep: 1031 Flag:-1 Reward: 3965.693201
+Out of field
+Ep: 1032 Flag:-1 Reward: 4809.153276
+Out of field
+Ep: 1033 Flag:-1 Reward: 1075.638942
+Ep: 1034 Flag:0 Reward: 3745.948323
+Goal!
+Ep: 1035 Flag:1 Reward: 6405.318967
+Goal!
+Ep: 1036 Flag:1 Reward: 6541.597600
+Ep: 1037 Flag:0 Reward: 4144.263952
+Out of field
+Ep: 1038 Flag:-1 Reward: 3197.403466
+Out of field
+Ep: 1039 Flag:-1 Reward: 3079.316811
+Out of field
+Ep: 1040 Flag:-1 Reward: 3321.666561
+Goal!
+Ep: 1041 Flag:1 Reward: 4830.008997
+Out of field
+Ep: 1042 Flag:-1 Reward: 4696.875432
+Goal!
+Ep: 1043 Flag:1 Reward: 3742.723237
+Out of field
+Ep: 1044 Flag:-1 Reward: 1723.121308
+Out of field
+Ep: 1045 Flag:-1 Reward: 2964.241482
+Out of field
+Ep: 1046 Flag:-1 Reward: 4568.909062
+Out of field
+Ep: 1047 Flag:-1 Reward: -60.312649
+Ep: 1048 Flag:0 Reward: 5728.371514
+Out of field
+Ep: 1049 Flag:-1 Reward: 2794.648247
+Out of field
+Ep: 1050 Flag:-1 Reward: 5193.820906
+Goal!
+Ep: 1051 Flag:1 Reward: 6546.209327
+Out of field
+Ep: 1052 Flag:-1 Reward: 3777.440251
+Goal!
+Ep: 1053 Flag:1 Reward: 4922.863402
+Goal!
+Ep: 1054 Flag:1 Reward: 2763.975182
+Out of field
+Ep: 1055 Flag:-1 Reward: 4231.559765
+Goal!
+Ep: 1056 Flag:1 Reward: 3866.658105
+Out of field
+Ep: 1057 Flag:-1 Reward: 2538.893153
+Goal!
+Ep: 1058 Flag:1 Reward: 4449.248620
+Ep: 1059 Flag:0 Reward: 3076.936224
+Goal!
+Ep: 1060 Flag:1 Reward: 4415.855538
+Goal!
+Ep: 1061 Flag:1 Reward: 5334.339144
+Ep: 1062 Flag:0 Reward: 4277.015104
+Ep: 1063 Flag:0 Reward: 2328.849733
+Ep: 1064 Flag:0 Reward: 3070.320089
+Goal!
+Ep: 1065 Flag:1 Reward: 4239.187347
+Out of field
+Ep: 1066 Flag:-1 Reward: 1657.862681
+Out of field
+Ep: 1067 Flag:-1 Reward: 2138.073624
+Goal!
+Ep: 1068 Flag:1 Reward: 4840.479701
+Goal!
+Ep: 1069 Flag:1 Reward: 4572.837187
+Goal!
+Ep: 1070 Flag:1 Reward: 6110.446908
+Goal!
+Ep: 1071 Flag:1 Reward: 4529.601287
+Goal!
+Ep: 1072 Flag:1 Reward: 5325.851740
+Ep: 1073 Flag:0 Reward: 3716.572356
+Goal!
+Ep: 1074 Flag:1 Reward: 6571.889888
+Goal!
+Ep: 1075 Flag:1 Reward: 5343.537138
+Goal!
+Ep: 1076 Flag:1 Reward: 5718.990040
+Goal!
+Ep: 1077 Flag:1 Reward: 6797.533357
+Out of field
+Ep: 1078 Flag:-1 Reward: 272.148811
+Ep: 1079 Flag:0 Reward: 3284.778339
+Goal!
+Ep: 1080 Flag:1 Reward: 4644.004719
+Out of field
+Ep: 1081 Flag:-1 Reward: 3104.371477
+Ep: 1082 Flag:0 Reward: 6721.663088
+Out of field
+Ep: 1083 Flag:-1 Reward: 1686.038508
+Out of field
+Ep: 1084 Flag:-1 Reward: 1232.762106
+Out of field
+Ep: 1085 Flag:-1 Reward: 1200.178829
+Out of field
+Ep: 1086 Flag:-1 Reward: 2316.119608
+Goal!
+Ep: 1087 Flag:1 Reward: 6283.137892
+Out of field
+Ep: 1088 Flag:-1 Reward: 1908.648038
+Goal!
+Ep: 1089 Flag:1 Reward: 2666.735344
+Out of field
+Ep: 1090 Flag:-1 Reward: 1543.638952
+Goal!
+Ep: 1091 Flag:1 Reward: 2632.886480
+Out of field
+Ep: 1092 Flag:-1 Reward: 2955.501033
+Out of field
+Ep: 1093 Flag:-1 Reward: 1855.316919
+Out of field
+Ep: 1094 Flag:-1 Reward: 3874.844067
+Ep: 1095 Flag:0 Reward: 3361.479570
+Out of field
+Ep: 1096 Flag:-1 Reward: 5395.521553
+Out of field
+Ep: 1097 Flag:-1 Reward: 609.206295
+Out of field
+Ep: 1098 Flag:-1 Reward: 6192.256204
+Out of field
+Ep: 1099 Flag:-1 Reward: 2025.469659
+Goal!
+Ep: 1100 Flag:1 Reward: 5868.068369
+Out of field
+Ep: 1101 Flag:-1 Reward: 2915.342982
+Out of field
+Ep: 1102 Flag:-1 Reward: 5997.725113
+Out of field
+Ep: 1103 Flag:-1 Reward: 2905.930952
+Ep: 1104 Flag:0 Reward: 4863.378126
+Out of field
+Ep: 1105 Flag:-1 Reward: 2493.121610
+Out of field
+Ep: 1106 Flag:-1 Reward: 1736.047414
+Out of field
+Ep: 1107 Flag:-1 Reward: 2548.367939
+Ep: 1108 Flag:0 Reward: 4011.351034
+Out of field
+Ep: 1109 Flag:-1 Reward: 2698.916892
+Out of field
+Ep: 1110 Flag:-1 Reward: 3401.598277
+Out of field
+Ep: 1111 Flag:-1 Reward: 5549.590043
+Out of field
+Ep: 1112 Flag:-1 Reward: 5157.983562
+Out of field
+Ep: 1113 Flag:-1 Reward: 3611.656561
+Out of field
+Ep: 1114 Flag:-1 Reward: 5698.653992
+Out of field
+Ep: 1115 Flag:-1 Reward: 4605.552755
+Out of field
+Ep: 1116 Flag:-1 Reward: 2621.337136
+Out of field
+Ep: 1117 Flag:-1 Reward: 3241.706807
+Out of field
+Ep: 1118 Flag:-1 Reward: 3489.051491
+Out of field
+Ep: 1119 Flag:-1 Reward: 2982.722683
+Ep: 1120 Flag:0 Reward: 3887.174107
+Out of field
+Ep: 1121 Flag:-1 Reward: 4660.544392
+Ep: 1122 Flag:0 Reward: 4748.078108
+Out of field
+Ep: 1123 Flag:-1 Reward: 912.678798
+Out of field
+Ep: 1124 Flag:-1 Reward: 780.612996
+Out of field
+Ep: 1125 Flag:-1 Reward: 4109.445923
+Out of field
+Ep: 1126 Flag:-1 Reward: 1638.271063
+Out of field
+Ep: 1127 Flag:-1 Reward: 5427.539120
+Ep: 1128 Flag:0 Reward: 4589.272465
+Out of field
+Ep: 1129 Flag:-1 Reward: 1450.793736
+Goal!
+Ep: 1130 Flag:1 Reward: 5587.169576
+Out of field
+Ep: 1131 Flag:-1 Reward: 2202.221628
+Out of field
+Ep: 1132 Flag:-1 Reward: 1490.870204
+Goal!
+Ep: 1133 Flag:1 Reward: 6541.981354
+Out of field
+Ep: 1134 Flag:-1 Reward: 3967.649406
+Out of field
+Ep: 1135 Flag:-1 Reward: 2126.913742
+Out of field
+Ep: 1136 Flag:-1 Reward: -61.443880
+Out of field
+Ep: 1137 Flag:-1 Reward: 1008.186038
+Out of field
+Ep: 1138 Flag:-1 Reward: 1219.139245
+Out of field
+Ep: 1139 Flag:-1 Reward: 1108.419057
+Ep: 1140 Flag:0 Reward: 3902.661554
+Ep: 1141 Flag:0 Reward: 4420.804921
+Ep: 1142 Flag:0 Reward: 4694.343753
+Out of field
+Ep: 1143 Flag:-1 Reward: 2346.584113
+Out of field
+Ep: 1144 Flag:-1 Reward: 4988.781330
+Out of field
+Ep: 1145 Flag:-1 Reward: 4155.772629
+Out of field
+Ep: 1146 Flag:-1 Reward: 1850.765024
+Ep: 1147 Flag:0 Reward: 3592.971141
+Out of field
+Ep: 1148 Flag:-1 Reward: 2600.861464
+Goal!
+Ep: 1149 Flag:1 Reward: 3015.488341
+Goal!
+Ep: 1150 Flag:1 Reward: 4106.503615
+Out of field
+Ep: 1151 Flag:-1 Reward: 2898.062837
+Out of field
+Ep: 1152 Flag:-1 Reward: 1675.635833
+Out of field
+Ep: 1153 Flag:-1 Reward: 3021.165171
+Out of field
+Ep: 1154 Flag:-1 Reward: 4222.031983
+Ep: 1155 Flag:0 Reward: 3197.174068
+Out of field
+Ep: 1156 Flag:-1 Reward: 3156.153580
+Out of field
+Ep: 1157 Flag:-1 Reward: 1656.744874
+Goal!
+Ep: 1158 Flag:1 Reward: 6426.120439
+Goal!
+Ep: 1159 Flag:1 Reward: 5594.969920
+Ep: 1160 Flag:0 Reward: 3977.317647
+Out of field
+Ep: 1161 Flag:-1 Reward: 3285.356041
+Goal!
+Ep: 1162 Flag:1 Reward: 5499.943952
+Out of field
+Ep: 1163 Flag:-1 Reward: 1477.601181
+Out of field
+Ep: 1164 Flag:-1 Reward: 4886.075246
+Out of field
+Ep: 1165 Flag:-1 Reward: 1927.852198
+Out of field
+Ep: 1166 Flag:-1 Reward: 3050.093650
+Out of field
+Ep: 1167 Flag:-1 Reward: 3650.907277
+Out of field
+Ep: 1168 Flag:-1 Reward: 2523.151280
+Out of field
+Ep: 1169 Flag:-1 Reward: 1624.426720
+Ep: 1170 Flag:0 Reward: 5804.314274
+Out of field
+Ep: 1171 Flag:-1 Reward: 3160.741057
+Ep: 1172 Flag:0 Reward: 4378.788737
+Out of field
+Ep: 1173 Flag:-1 Reward: 902.214475
+Out of field
+Ep: 1174 Flag:-1 Reward: 342.496631
+Ep: 1175 Flag:0 Reward: 5022.000230
+Out of field
+Ep: 1176 Flag:-1 Reward: 1802.231814
+Out of field
+Ep: 1177 Flag:-1 Reward: 689.371665
+Ep: 1178 Flag:0 Reward: 5365.333207
+Out of field
+Ep: 1179 Flag:-1 Reward: 3772.866628
+Out of field
+Ep: 1180 Flag:-1 Reward: 3171.830550
+Out of field
+Ep: 1181 Flag:-1 Reward: 370.158752
+Out of field
+Ep: 1182 Flag:-1 Reward: 4788.558668
+Out of field
+Ep: 1183 Flag:-1 Reward: 2000.068649
+Out of field
+Ep: 1184 Flag:-1 Reward: 2408.405908
+Ep: 1185 Flag:0 Reward: 5863.902344
+Out of field
+Ep: 1186 Flag:-1 Reward: 3677.620671
+Goal!
+Ep: 1187 Flag:1 Reward: 3030.553991
+Out of field
+Ep: 1188 Flag:-1 Reward: 1248.574407
+Out of field
+Ep: 1189 Flag:-1 Reward: 2467.580383
+Out of field
+Ep: 1190 Flag:-1 Reward: 5115.833046
+Ep: 1191 Flag:0 Reward: 5076.880017
+Out of field
+Ep: 1192 Flag:-1 Reward: 2482.207346
+Out of field
+Ep: 1193 Flag:-1 Reward: 4471.907437
+Out of field
+Ep: 1194 Flag:-1 Reward: 4983.701236
+Out of field
+Ep: 1195 Flag:-1 Reward: 2846.510063
+Out of field
+Ep: 1196 Flag:-1 Reward: 541.368666
+Out of field
+Ep: 1197 Flag:-1 Reward: 5793.422311
+Out of field
+Ep: 1198 Flag:-1 Reward: 2213.081059
+Ep: 1199 Flag:0 Reward: 4439.385656
+Out of field
+Ep: 1200 Flag:-1 Reward: 1640.158642
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 1201 Flag:-1 Reward: 1776.061410
+Out of field
+Ep: 1202 Flag:-1 Reward: 4259.469667
+Out of field
+Ep: 1203 Flag:-1 Reward: 207.843921
+Out of field
+Ep: 1204 Flag:-1 Reward: 4069.257565
+Goal!
+Ep: 1205 Flag:1 Reward: 5556.686904
+Goal!
+Ep: 1206 Flag:1 Reward: 6255.359610
+Out of field
+Ep: 1207 Flag:-1 Reward: 4969.087971
+Goal!
+Ep: 1208 Flag:1 Reward: 6184.336184
+Ep: 1209 Flag:0 Reward: 4456.921311
+Goal!
+Ep: 1210 Flag:1 Reward: 4349.673913
+Ep: 1211 Flag:0 Reward: 4714.574293
+Ep: 1212 Flag:0 Reward: 4419.445192
+Goal!
+Ep: 1213 Flag:1 Reward: 6471.145001
+Ep: 1214 Flag:0 Reward: 5493.415821
+Ep: 1215 Flag:0 Reward: 4502.342022
+Ep: 1216 Flag:0 Reward: 5528.632124
+Goal!
+Ep: 1217 Flag:1 Reward: 5710.329195
+Ep: 1218 Flag:0 Reward: 4276.193366
+Ep: 1219 Flag:0 Reward: 4519.870304
+Ep: 1220 Flag:0 Reward: 4398.257367
+Out of field
+Ep: 1221 Flag:-1 Reward: 3211.424976
+Ep: 1222 Flag:0 Reward: 3608.204247
+Out of field
+Ep: 1223 Flag:-1 Reward: 1472.021275
+Ep: 1224 Flag:0 Reward: 4876.456274
+Ep: 1225 Flag:0 Reward: 4705.365036
+Out of field
+Ep: 1226 Flag:-1 Reward: 2740.625913
+Ep: 1227 Flag:0 Reward: 4417.533307
+Out of field
+Ep: 1228 Flag:-1 Reward: 1696.089141
+Ep: 1229 Flag:0 Reward: 5645.240007
+Ep: 1230 Flag:0 Reward: 3577.575807
+Out of field
+Ep: 1231 Flag:-1 Reward: 2576.594446
+Ep: 1232 Flag:0 Reward: 5531.583130
+Ep: 1233 Flag:0 Reward: 4554.286035
+Goal!
+Ep: 1234 Flag:1 Reward: 4224.047054
+Ep: 1235 Flag:0 Reward: 4492.858402
+Ep: 1236 Flag:0 Reward: 3932.684196
+Ep: 1237 Flag:0 Reward: 4919.417903
+Ep: 1238 Flag:0 Reward: 4951.348347
+Ep: 1239 Flag:0 Reward: 4407.622821
+Ep: 1240 Flag:0 Reward: 3923.474660
+Ep: 1241 Flag:0 Reward: 3374.386503
+Ep: 1242 Flag:0 Reward: 5464.440924
+Ep: 1243 Flag:0 Reward: 4636.926379
+Ep: 1244 Flag:0 Reward: 5558.018661
+Goal!
+Ep: 1245 Flag:1 Reward: 4575.686019
+Out of field
+Ep: 1246 Flag:-1 Reward: 3982.023864
+Ep: 1247 Flag:0 Reward: 3571.283131
+Ep: 1248 Flag:0 Reward: 4307.222458
+Ep: 1249 Flag:0 Reward: 3689.592545
+Ep: 1250 Flag:0 Reward: 4638.623237
+Ep: 1251 Flag:0 Reward: 3902.449912
+Ep: 1252 Flag:0 Reward: 3403.271500
+Ep: 1253 Flag:0 Reward: 2767.348244
+Out of field
+Ep: 1254 Flag:-1 Reward: 2750.945295
+Ep: 1255 Flag:0 Reward: 3686.957587
+Ep: 1256 Flag:0 Reward: 3990.242175
+Ep: 1257 Flag:0 Reward: 5108.231699
+Ep: 1258 Flag:0 Reward: 4132.794931
+Out of field
+Ep: 1259 Flag:-1 Reward: 4449.180301
+Ep: 1260 Flag:0 Reward: 4260.937945
+Ep: 1261 Flag:0 Reward: 5644.289934
+Out of field
+Ep: 1262 Flag:-1 Reward: 4247.743928
+Ep: 1263 Flag:0 Reward: 2762.635959
+Ep: 1264 Flag:0 Reward: 3581.368376
+Ep: 1265 Flag:0 Reward: 3994.412585
+Out of field
+Ep: 1266 Flag:-1 Reward: 2212.047869
+Ep: 1267 Flag:0 Reward: 2638.528424
+Ep: 1268 Flag:0 Reward: 2644.156414
+Out of field
+Ep: 1269 Flag:-1 Reward: 2346.626723
+Out of field
+Ep: 1270 Flag:-1 Reward: 5076.827344
+Out of field
+Ep: 1271 Flag:-1 Reward: 2225.757803
+Out of field
+Ep: 1272 Flag:-1 Reward: 4105.138768
+Out of field
+Ep: 1273 Flag:-1 Reward: 3880.314091
+Out of field
+Ep: 1274 Flag:-1 Reward: 1943.523527
+Out of field
+Ep: 1275 Flag:-1 Reward: 614.314333
+Goal!
+Ep: 1276 Flag:1 Reward: 6399.400243
+Out of field
+Ep: 1277 Flag:-1 Reward: 5370.777988
+Out of field
+Ep: 1278 Flag:-1 Reward: 3934.214103
+Out of field
+Ep: 1279 Flag:-1 Reward: 4714.791768
+Out of field
+Ep: 1280 Flag:-1 Reward: 1613.443964
+Out of field
+Ep: 1281 Flag:-1 Reward: 2115.003122
+Out of field
+Ep: 1282 Flag:-1 Reward: 89.052941
+Out of field
+Ep: 1283 Flag:-1 Reward: 862.413778
+Goal!
+Ep: 1284 Flag:1 Reward: 3666.717116
+Out of field
+Ep: 1285 Flag:-1 Reward: -128.832262
+Ep: 1286 Flag:0 Reward: 5005.288056
+Ep: 1287 Flag:0 Reward: 3969.640526
+Out of field
+Ep: 1288 Flag:-1 Reward: 3450.185922
+Out of field
+Ep: 1289 Flag:-1 Reward: 1185.534976
+Out of field
+Ep: 1290 Flag:-1 Reward: 186.504709
+Out of field
+Ep: 1291 Flag:-1 Reward: 1362.761342
+Ep: 1292 Flag:0 Reward: 3226.970804
+Out of field
+Ep: 1293 Flag:-1 Reward: 5650.823961
+Ep: 1294 Flag:0 Reward: 5815.096760
+Out of field
+Ep: 1295 Flag:-1 Reward: 1000.043319
+Ep: 1296 Flag:0 Reward: 5140.721331
+Out of field
+Ep: 1297 Flag:-1 Reward: 2791.779525
+Ep: 1298 Flag:0 Reward: 4835.845440
+Ep: 1299 Flag:0 Reward: 5601.689190
+Ep: 1300 Flag:0 Reward: 5453.325498
+Ep: 1301 Flag:0 Reward: 5475.807847
+Ep: 1302 Flag:0 Reward: 4971.139398
+Ep: 1303 Flag:0 Reward: 4732.687624
+Ep: 1304 Flag:0 Reward: 4443.333743
+Out of field
+Ep: 1305 Flag:-1 Reward: 2455.111493
+Ep: 1306 Flag:0 Reward: 6110.516487
+Ep: 1307 Flag:0 Reward: 3546.344390
+Out of field
+Ep: 1308 Flag:-1 Reward: 1530.793638
+Ep: 1309 Flag:0 Reward: 3581.220289
+Ep: 1310 Flag:0 Reward: 5006.334674
+Ep: 1311 Flag:0 Reward: 5318.114223
+Ep: 1312 Flag:0 Reward: 5542.512792
+Ep: 1313 Flag:0 Reward: 4923.900959
+Ep: 1314 Flag:0 Reward: 4668.132314
+Ep: 1315 Flag:0 Reward: 3785.144528
+Out of field
+Ep: 1316 Flag:-1 Reward: 1493.549052
+Out of field
+Ep: 1317 Flag:-1 Reward: 1433.541487
+Ep: 1318 Flag:0 Reward: 3628.218771
+Ep: 1319 Flag:0 Reward: 4905.795201
+Ep: 1320 Flag:0 Reward: 2414.129687
+Ep: 1321 Flag:0 Reward: 5165.969162
+Ep: 1322 Flag:0 Reward: 4480.575644
+Ep: 1323 Flag:0 Reward: 5190.512024
+Ep: 1324 Flag:0 Reward: 3617.605924
+Ep: 1325 Flag:0 Reward: 5422.850771
+Out of field
+Ep: 1326 Flag:-1 Reward: 3798.904302
+Out of field
+Ep: 1327 Flag:-1 Reward: 1220.628077
+Ep: 1328 Flag:0 Reward: 4935.266042
+Ep: 1329 Flag:0 Reward: 5446.648427
+Goal!
+Ep: 1330 Flag:1 Reward: 3797.145367
+Ep: 1331 Flag:0 Reward: 3578.202841
+Ep: 1332 Flag:0 Reward: 4043.958168
+Ep: 1333 Flag:0 Reward: 5600.044284
+Out of field
+Ep: 1334 Flag:-1 Reward: 815.204956
+Ep: 1335 Flag:0 Reward: 4725.285421
+Out of field
+Ep: 1336 Flag:-1 Reward: 1306.070789
+Out of field
+Ep: 1337 Flag:-1 Reward: 2015.784622
+Ep: 1338 Flag:0 Reward: 2390.528989
+Ep: 1339 Flag:0 Reward: 5210.662690
+Out of field
+Ep: 1340 Flag:-1 Reward: 1001.183246
+Ep: 1341 Flag:0 Reward: 3485.098149
+Out of field
+Ep: 1342 Flag:-1 Reward: 5497.762173
+Ep: 1343 Flag:0 Reward: 2117.906055
+Out of field
+Ep: 1344 Flag:-1 Reward: 3527.972143
+Ep: 1345 Flag:0 Reward: 3608.709153
+Out of field
+Ep: 1346 Flag:-1 Reward: 3332.490150
+Out of field
+Ep: 1347 Flag:-1 Reward: 4261.644303
+Ep: 1348 Flag:0 Reward: 4645.469263
+Out of field
+Ep: 1349 Flag:-1 Reward: 1992.165092
+Ep: 1350 Flag:0 Reward: 4111.824871
+Ep: 1351 Flag:0 Reward: 4465.522966
+Ep: 1352 Flag:0 Reward: 4501.563390
+Ep: 1353 Flag:0 Reward: 6164.728211
+Ep: 1354 Flag:0 Reward: 5274.290017
+Ep: 1355 Flag:0 Reward: 4357.394566
+Ep: 1356 Flag:0 Reward: 5378.495856
+Ep: 1357 Flag:0 Reward: 4839.163204
+Ep: 1358 Flag:0 Reward: 5826.220502
+Goal!
+Ep: 1359 Flag:1 Reward: 4934.877246
+Ep: 1360 Flag:0 Reward: 958.677479
+Out of field
+Ep: 1361 Flag:-1 Reward: 2552.637382
+Out of field
+Ep: 1362 Flag:-1 Reward: 1275.271252
+Ep: 1363 Flag:0 Reward: 4681.579978
+Ep: 1364 Flag:0 Reward: 3411.699393
+Ep: 1365 Flag:0 Reward: 3949.201439
+Ep: 1366 Flag:0 Reward: 2991.612835
+Ep: 1367 Flag:0 Reward: 4915.887237
+Ep: 1368 Flag:0 Reward: 109.214798
+Ep: 1369 Flag:0 Reward: 2373.613272
+Ep: 1370 Flag:0 Reward: 4414.912618
+Ep: 1371 Flag:0 Reward: 5404.418277
+Ep: 1372 Flag:0 Reward: 455.715169
+Ep: 1373 Flag:0 Reward: 5647.155667
+Ep: 1374 Flag:0 Reward: 1937.625759
+Ep: 1375 Flag:0 Reward: 3033.784265
+Out of field
+Ep: 1376 Flag:-1 Reward: 3837.434316
+Ep: 1377 Flag:0 Reward: 1875.906384
+Ep: 1378 Flag:0 Reward: 1433.353565
+Ep: 1379 Flag:0 Reward: 3251.020154
+Ep: 1380 Flag:0 Reward: 3496.402963
+Ep: 1381 Flag:0 Reward: 2434.667088
+Ep: 1382 Flag:0 Reward: 1628.763383
+Ep: 1383 Flag:0 Reward: 923.986770
+Out of field
+Ep: 1384 Flag:-1 Reward: 4072.292010
+Ep: 1385 Flag:0 Reward: -371.809530
+Ep: 1386 Flag:0 Reward: 4850.606274
+Ep: 1387 Flag:0 Reward: 1966.283014
+Out of field
+Ep: 1388 Flag:-1 Reward: 4170.021178
+Ep: 1389 Flag:0 Reward: 1620.795957
+Ep: 1390 Flag:0 Reward: 5161.761191
+Ep: 1391 Flag:0 Reward: 3108.614045
+Ep: 1392 Flag:0 Reward: 3526.865981
+Ep: 1393 Flag:0 Reward: 3972.505251
+Ep: 1394 Flag:0 Reward: 1588.628280
+Out of field
+Ep: 1395 Flag:-1 Reward: 3279.534927
+Ep: 1396 Flag:0 Reward: 1935.760197
+Ep: 1397 Flag:0 Reward: 3125.710209
+Out of field
+Ep: 1398 Flag:-1 Reward: -1137.906463
+Ep: 1399 Flag:0 Reward: 1320.256224
+Out of field
+Ep: 1400 Flag:-1 Reward: -2310.115550
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Ep: 1401 Flag:0 Reward: 3740.379616
+Ep: 1402 Flag:0 Reward: 3564.415114
+Ep: 1403 Flag:0 Reward: 1283.450604
+Ep: 1404 Flag:0 Reward: 1920.798066
+Ep: 1405 Flag:0 Reward: 1813.103890
+Ep: 1406 Flag:0 Reward: 1767.051428
+Ep: 1407 Flag:0 Reward: 1535.858176
+Ep: 1408 Flag:0 Reward: 3833.776268
+Ep: 1409 Flag:0 Reward: 4671.217991
+Ep: 1410 Flag:0 Reward: 1857.921304
+Goal!
+Ep: 1411 Flag:1 Reward: 5185.987522
+Ep: 1412 Flag:0 Reward: 3341.694547
+Out of field
+Ep: 1413 Flag:-1 Reward: 3041.860805
+Ep: 1414 Flag:0 Reward: 1610.449929
+Ep: 1415 Flag:0 Reward: 2529.579738
+Ep: 1416 Flag:0 Reward: 5407.956390
+Ep: 1417 Flag:0 Reward: 3370.869123
+Ep: 1418 Flag:0 Reward: 2500.126998
+Ep: 1419 Flag:0 Reward: 1328.704815
+Ep: 1420 Flag:0 Reward: 4043.590277
+Ep: 1421 Flag:0 Reward: 4059.809726
+Ep: 1422 Flag:0 Reward: 5331.646218
+Out of field
+Ep: 1423 Flag:-1 Reward: 576.291057
+Out of field
+Ep: 1424 Flag:-1 Reward: 4618.422395
+Ep: 1425 Flag:0 Reward: 4945.867883
+Ep: 1426 Flag:0 Reward: -511.041560
+Out of field
+Ep: 1427 Flag:-1 Reward: -4201.358539
+Out of field
+Ep: 1428 Flag:-1 Reward: 3246.939712
+Ep: 1429 Flag:0 Reward: 3396.027644
+Ep: 1430 Flag:0 Reward: 3646.746978
+Ep: 1431 Flag:0 Reward: 1404.804037
+Ep: 1432 Flag:0 Reward: 2136.214249
+Ep: 1433 Flag:0 Reward: 2576.058760
+Ep: 1434 Flag:0 Reward: 3354.872442
+Ep: 1435 Flag:0 Reward: 4947.585207
+Ep: 1436 Flag:0 Reward: 2762.386423
+Out of field
+Ep: 1437 Flag:-1 Reward: -4128.903741
+Out of field
+Ep: 1438 Flag:-1 Reward: -4900.448646
+Ep: 1439 Flag:0 Reward: 5286.955565
+Ep: 1440 Flag:0 Reward: 4572.777137
+Ep: 1441 Flag:0 Reward: 4683.080037
+Ep: 1442 Flag:0 Reward: 3580.470990
+Out of field
+Ep: 1443 Flag:-1 Reward: 3104.606417
+Ep: 1444 Flag:0 Reward: 1875.193541
+Ep: 1445 Flag:0 Reward: 3330.913566
+Ep: 1446 Flag:0 Reward: 3213.278889
+Out of field
+Ep: 1447 Flag:-1 Reward: 808.284321
+Ep: 1448 Flag:0 Reward: 2802.199318
+Ep: 1449 Flag:0 Reward: 3066.173331
+Out of field
+Ep: 1450 Flag:-1 Reward: -2696.582913
+Out of field
+Ep: 1451 Flag:-1 Reward: -2657.174094
+Ep: 1452 Flag:0 Reward: 2927.031854
+Ep: 1453 Flag:0 Reward: 5606.135713
+Ep: 1454 Flag:0 Reward: -3163.064236
+Out of field
+Ep: 1455 Flag:-1 Reward: 118.063695
+Out of field
+Ep: 1456 Flag:-1 Reward: -2454.353955
+Ep: 1457 Flag:0 Reward: 2686.543043
+Ep: 1458 Flag:0 Reward: 2715.125346
+Ep: 1459 Flag:0 Reward: 2628.515696
+Out of field
+Ep: 1460 Flag:-1 Reward: 1556.878468
+Out of field
+Ep: 1461 Flag:-1 Reward: -3165.846115
+Ep: 1462 Flag:0 Reward: 1086.029783
+Goal!
+Ep: 1463 Flag:1 Reward: 4205.284387
+Ep: 1464 Flag:0 Reward: 3726.612866
+Ep: 1465 Flag:0 Reward: 2609.194192
+Out of field
+Ep: 1466 Flag:-1 Reward: 492.504131
+Goal!
+Ep: 1467 Flag:1 Reward: 2465.440561
+Out of field
+Ep: 1468 Flag:-1 Reward: 113.603652
+Ep: 1469 Flag:0 Reward: 2894.714744
+Out of field
+Ep: 1470 Flag:-1 Reward: 275.305860
+Out of field
+Ep: 1471 Flag:-1 Reward: 1369.064280
+Ep: 1472 Flag:0 Reward: 2211.576673
+Ep: 1473 Flag:0 Reward: 2446.088569
+Ep: 1474 Flag:0 Reward: 2665.382380
+Ep: 1475 Flag:0 Reward: 3219.840395
+Out of field
+Ep: 1476 Flag:-1 Reward: 1330.764117
+Ep: 1477 Flag:0 Reward: 4006.617457
+Out of field
+Ep: 1478 Flag:-1 Reward: -145.418475
+Ep: 1479 Flag:0 Reward: 3382.287099
+Out of field
+Ep: 1480 Flag:-1 Reward: -2460.940127
+Goal!
+Ep: 1481 Flag:1 Reward: 5668.906678
+Ep: 1482 Flag:0 Reward: 3611.025339
+Ep: 1483 Flag:0 Reward: 3069.175944
+Out of field
+Ep: 1484 Flag:-1 Reward: 66.316749
+Ep: 1485 Flag:0 Reward: 2557.803807
+Ep: 1486 Flag:0 Reward: 5531.943622
+Ep: 1487 Flag:0 Reward: 2949.840865
+Ep: 1488 Flag:0 Reward: 5151.170989
+Ep: 1489 Flag:0 Reward: 2731.093258
+Ep: 1490 Flag:0 Reward: 5052.061330
+Out of field
+Ep: 1491 Flag:-1 Reward: -1184.461583
+Out of field
+Ep: 1492 Flag:-1 Reward: -5.806542
+Ep: 1493 Flag:0 Reward: 4886.814214
+Out of field
+Ep: 1494 Flag:-1 Reward: 932.495178
+Goal!
+Ep: 1495 Flag:1 Reward: 3592.486521
+Out of field
+Ep: 1496 Flag:-1 Reward: 2657.689798
+Ep: 1497 Flag:0 Reward: 5541.981020
+Ep: 1498 Flag:0 Reward: 2261.401738
+Out of field
+Ep: 1499 Flag:-1 Reward: 3948.109598
+Ep: 1500 Flag:0 Reward: 3933.938964
+Ep: 1501 Flag:0 Reward: 4919.113068
+Ep: 1502 Flag:0 Reward: 4488.722970
+Goal!
+Ep: 1503 Flag:1 Reward: 5783.466959
+Ep: 1504 Flag:0 Reward: 5217.281794
+Out of field
+Ep: 1505 Flag:-1 Reward: 3629.288584
+Ep: 1506 Flag:0 Reward: 2180.924409
+Ep: 1507 Flag:0 Reward: 2025.527824
+Ep: 1508 Flag:0 Reward: 3307.557592
+Ep: 1509 Flag:0 Reward: 3088.289920
+Ep: 1510 Flag:0 Reward: 4416.622744
+Out of field
+Ep: 1511 Flag:-1 Reward: 1970.520380
+Out of field
+Ep: 1512 Flag:-1 Reward: 3332.780683
+Ep: 1513 Flag:0 Reward: 4948.719474
+Out of field
+Ep: 1514 Flag:-1 Reward: -777.750637
+Ep: 1515 Flag:0 Reward: 5096.316621
+Out of field
+Ep: 1516 Flag:-1 Reward: 205.417173
+Ep: 1517 Flag:0 Reward: 5436.896237
+Out of field
+Ep: 1518 Flag:-1 Reward: 677.255011
+Ep: 1519 Flag:0 Reward: 5048.352598
+Ep: 1520 Flag:0 Reward: 3704.801919
+Out of field
+Ep: 1521 Flag:-1 Reward: 3140.496037
+Ep: 1522 Flag:0 Reward: 4466.768085
+Goal!
+Ep: 1523 Flag:1 Reward: 5848.472549
+Ep: 1524 Flag:0 Reward: 4205.597048
+Out of field
+Ep: 1525 Flag:-1 Reward: 3378.336987
+Ep: 1526 Flag:0 Reward: 5682.533821
+Ep: 1527 Flag:0 Reward: 4350.675218
+Ep: 1528 Flag:0 Reward: 3592.471360
+Ep: 1529 Flag:0 Reward: 5439.045934
+Ep: 1530 Flag:0 Reward: 3446.267497
+Ep: 1531 Flag:0 Reward: 5582.374063
+Ep: 1532 Flag:0 Reward: 4834.457451
+Ep: 1533 Flag:0 Reward: 3403.268473
+Ep: 1534 Flag:0 Reward: 4734.685360
+Ep: 1535 Flag:0 Reward: 4919.620722
+Out of field
+Ep: 1536 Flag:-1 Reward: -991.509075
+Ep: 1537 Flag:0 Reward: 4245.390184
+Out of field
+Ep: 1538 Flag:-1 Reward: 735.134376
+Ep: 1539 Flag:0 Reward: 4301.878319
+Ep: 1540 Flag:0 Reward: 4429.818235
+Ep: 1541 Flag:0 Reward: 4236.976325
+Ep: 1542 Flag:0 Reward: 4044.672253
+Ep: 1543 Flag:0 Reward: 4137.042772
+Ep: 1544 Flag:0 Reward: 4360.163950
+Out of field
+Ep: 1545 Flag:-1 Reward: 1730.998095
+Ep: 1546 Flag:0 Reward: 3806.684375
+Ep: 1547 Flag:0 Reward: 4659.726496
+Ep: 1548 Flag:0 Reward: 4085.176494
+Out of field
+Ep: 1549 Flag:-1 Reward: 985.049122
+Ep: 1550 Flag:0 Reward: 4749.180080
+Ep: 1551 Flag:0 Reward: 3716.925295
+Out of field
+Ep: 1552 Flag:-1 Reward: 2517.079616
+Out of field
+Ep: 1553 Flag:-1 Reward: 108.417909
+Ep: 1554 Flag:0 Reward: 5189.722788
+Ep: 1555 Flag:0 Reward: 2957.925834
+Ep: 1556 Flag:0 Reward: 4158.406938
+Ep: 1557 Flag:0 Reward: 5381.907417
+Ep: 1558 Flag:0 Reward: 3571.569789
+Out of field
+Ep: 1559 Flag:-1 Reward: 1697.704199
+Out of field
+Ep: 1560 Flag:-1 Reward: -1058.692616
+Ep: 1561 Flag:0 Reward: 4540.435690
+Ep: 1562 Flag:0 Reward: 3026.343921
+Ep: 1563 Flag:0 Reward: 4940.769159
+Out of field
+Ep: 1564 Flag:-1 Reward: 121.262099
+Out of field
+Ep: 1565 Flag:-1 Reward: 1696.705733
+Ep: 1566 Flag:0 Reward: 4973.186895
+Ep: 1567 Flag:0 Reward: 4480.011423
+Ep: 1568 Flag:0 Reward: 4665.949311
+Ep: 1569 Flag:0 Reward: 4121.541482
+Out of field
+Ep: 1570 Flag:-1 Reward: 911.574145
+Out of field
+Ep: 1571 Flag:-1 Reward: 3159.949814
+Out of field
+Ep: 1572 Flag:-1 Reward: 1360.167037
+Ep: 1573 Flag:0 Reward: 4202.778520
+Ep: 1574 Flag:0 Reward: 3877.176910
+Ep: 1575 Flag:0 Reward: 1747.438856
+Ep: 1576 Flag:0 Reward: 3795.334990
+Out of field
+Ep: 1577 Flag:-1 Reward: 5338.989423
+Ep: 1578 Flag:0 Reward: 4093.965383
+Out of field
+Ep: 1579 Flag:-1 Reward: 713.252854
+Ep: 1580 Flag:0 Reward: 3739.579056
+Ep: 1581 Flag:0 Reward: 4756.994162
+Ep: 1582 Flag:0 Reward: 3913.909597
+Ep: 1583 Flag:0 Reward: 4305.685345
+Ep: 1584 Flag:0 Reward: 3351.024110
+Ep: 1585 Flag:0 Reward: 3216.237574
+Ep: 1586 Flag:0 Reward: 5249.315719
+Ep: 1587 Flag:0 Reward: 5356.818107
+Ep: 1588 Flag:0 Reward: 3013.785808
+Ep: 1589 Flag:0 Reward: 5284.836881
+Ep: 1590 Flag:0 Reward: 5266.265103
+Ep: 1591 Flag:0 Reward: 4407.242937
+Ep: 1592 Flag:0 Reward: 4096.804246
+Ep: 1593 Flag:0 Reward: 2970.874612
+Out of field
+Ep: 1594 Flag:-1 Reward: -995.828402
+Ep: 1595 Flag:0 Reward: 2773.134537
+Ep: 1596 Flag:0 Reward: 3765.603719
+Out of field
+Ep: 1597 Flag:-1 Reward: 1676.525273
+Ep: 1598 Flag:0 Reward: 5045.993550
+Ep: 1599 Flag:0 Reward: 2614.242624
+Ep: 1600 Flag:0 Reward: 1398.770703
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Ep: 1601 Flag:0 Reward: 1376.865918
+Ep: 1602 Flag:0 Reward: 4224.525240
+Ep: 1603 Flag:0 Reward: 4302.196513
+Ep: 1604 Flag:0 Reward: 3123.263493
+Ep: 1605 Flag:0 Reward: 5000.510266
+Out of field
+Ep: 1606 Flag:-1 Reward: -115.671806
+Ep: 1607 Flag:0 Reward: 4209.763099
+Ep: 1608 Flag:0 Reward: 2434.464940
+Ep: 1609 Flag:0 Reward: 4439.764398
+Out of field
+Ep: 1610 Flag:-1 Reward: 1122.343457
+Ep: 1611 Flag:0 Reward: 2472.439405
+Ep: 1612 Flag:0 Reward: 3393.341749
+Ep: 1613 Flag:0 Reward: 3711.499435
+Ep: 1614 Flag:0 Reward: 4165.492685
+Ep: 1615 Flag:0 Reward: 5011.882168
+Ep: 1616 Flag:0 Reward: 4873.872509
+Ep: 1617 Flag:0 Reward: 3666.071224
+Ep: 1618 Flag:0 Reward: 2181.517564
+Ep: 1619 Flag:0 Reward: 4357.971492
+Ep: 1620 Flag:0 Reward: 3193.196680
+Ep: 1621 Flag:0 Reward: 3244.980086
+Ep: 1622 Flag:0 Reward: 3306.411138
+Ep: 1623 Flag:0 Reward: 3092.015867
+Ep: 1624 Flag:0 Reward: 3442.563851
+Ep: 1625 Flag:0 Reward: 4450.732347
+Ep: 1626 Flag:0 Reward: 3690.160767
+Ep: 1627 Flag:0 Reward: 5149.025635
+Ep: 1628 Flag:0 Reward: 5642.716266
+Out of field
+Ep: 1629 Flag:-1 Reward: 3036.826436
+Out of field
+Ep: 1630 Flag:-1 Reward: 4327.965365
+Ep: 1631 Flag:0 Reward: 2963.023892
+Ep: 1632 Flag:0 Reward: 3541.111159
+Ep: 1633 Flag:0 Reward: 1768.050874
+Ep: 1634 Flag:0 Reward: 479.343553
+Ep: 1635 Flag:0 Reward: 2223.268086
+Ep: 1636 Flag:0 Reward: 4219.551303
+Ep: 1637 Flag:0 Reward: 5596.528378
+Ep: 1638 Flag:0 Reward: 3270.338743
+Ep: 1639 Flag:0 Reward: 5107.565606
+Ep: 1640 Flag:0 Reward: 6137.548987
+Ep: 1641 Flag:0 Reward: 4449.678826
+Ep: 1642 Flag:0 Reward: 5543.588408
+Out of field
+Ep: 1643 Flag:-1 Reward: 4241.372296
+Goal!
+Ep: 1644 Flag:1 Reward: 5482.984301
+Goal!
+Ep: 1645 Flag:1 Reward: 5128.189701
+Goal!
+Ep: 1646 Flag:1 Reward: 4164.501353
+Out of field
+Ep: 1647 Flag:-1 Reward: 682.593787
+Out of field
+Ep: 1648 Flag:-1 Reward: -45.008872
+Out of field
+Ep: 1649 Flag:-1 Reward: 2572.551589
+Out of field
+Ep: 1650 Flag:-1 Reward: -439.347314
+Out of field
+Ep: 1651 Flag:-1 Reward: 5404.963198
+Ep: 1652 Flag:0 Reward: 5389.752721
+Ep: 1653 Flag:0 Reward: 5064.366859
+Ep: 1654 Flag:0 Reward: 4932.857908
+Ep: 1655 Flag:0 Reward: 5321.516603
+Ep: 1656 Flag:0 Reward: 4465.097739
+Out of field
+Ep: 1657 Flag:-1 Reward: 5182.654509
+Ep: 1658 Flag:0 Reward: 5133.679682
+Out of field
+Ep: 1659 Flag:-1 Reward: 322.413041
+Out of field
+Ep: 1660 Flag:-1 Reward: 1946.967047
+Ep: 1661 Flag:0 Reward: 5269.975551
+Out of field
+Ep: 1662 Flag:-1 Reward: 2025.549622
+Goal!
+Ep: 1663 Flag:1 Reward: 5588.847418
+Ep: 1664 Flag:0 Reward: 4410.307435
+Ep: 1665 Flag:0 Reward: 3386.618621
+Out of field
+Ep: 1666 Flag:-1 Reward: 237.924781
+Ep: 1667 Flag:0 Reward: 4484.683062
+Out of field
+Ep: 1668 Flag:-1 Reward: 2264.103582
+Out of field
+Ep: 1669 Flag:-1 Reward: 2852.615313
+Ep: 1670 Flag:0 Reward: 3826.211823
+Out of field
+Ep: 1671 Flag:-1 Reward: 2524.709579
+Ep: 1672 Flag:0 Reward: 4330.359327
+Out of field
+Ep: 1673 Flag:-1 Reward: 394.900714
+Out of field
+Ep: 1674 Flag:-1 Reward: 4206.765778
+Ep: 1675 Flag:0 Reward: 5445.978177
+Ep: 1676 Flag:0 Reward: 5204.575781
+Ep: 1677 Flag:0 Reward: 5407.669401
+Out of field
+Ep: 1678 Flag:-1 Reward: 2757.501397
+Out of field
+Ep: 1679 Flag:-1 Reward: 2709.210089
+Out of field
+Ep: 1680 Flag:-1 Reward: -1070.491028
+Out of field
+Ep: 1681 Flag:-1 Reward: 1269.005945
+Out of field
+Ep: 1682 Flag:-1 Reward: 1699.092002
+Out of field
+Ep: 1683 Flag:-1 Reward: 4115.102031
+Out of field
+Ep: 1684 Flag:-1 Reward: 795.200381
+Out of field
+Ep: 1685 Flag:-1 Reward: 3270.248427
+Out of field
+Ep: 1686 Flag:-1 Reward: 4508.681662
+Out of field
+Ep: 1687 Flag:-1 Reward: 3743.180392
+Out of field
+Ep: 1688 Flag:-1 Reward: 3464.848215
+Out of field
+Ep: 1689 Flag:-1 Reward: 3041.344030
+Out of field
+Ep: 1690 Flag:-1 Reward: 5250.406904
+Out of field
+Ep: 1691 Flag:-1 Reward: 858.733335
+Ep: 1692 Flag:0 Reward: 4837.948731
+Out of field
+Ep: 1693 Flag:-1 Reward: 2161.278397
+Out of field
+Ep: 1694 Flag:-1 Reward: 1018.037246
+Ep: 1695 Flag:0 Reward: 4805.201105
+Ep: 1696 Flag:0 Reward: 4856.285661
+Out of field
+Ep: 1697 Flag:-1 Reward: 3565.305983
+Ep: 1698 Flag:0 Reward: 5303.196507
+Out of field
+Ep: 1699 Flag:-1 Reward: 3570.003510
+Out of field
+Ep: 1700 Flag:-1 Reward: 1826.291009
+Out of field
+Ep: 1701 Flag:-1 Reward: 1962.313108
+Ep: 1702 Flag:0 Reward: 3447.210799
+Out of field
+Ep: 1703 Flag:-1 Reward: 2112.016982
+Ep: 1704 Flag:0 Reward: 5177.887347
+Ep: 1705 Flag:0 Reward: 5235.181999
+Ep: 1706 Flag:0 Reward: 5236.814166
+Ep: 1707 Flag:0 Reward: 5386.519393
+Out of field
+Ep: 1708 Flag:-1 Reward: -123.855934
+Out of field
+Ep: 1709 Flag:-1 Reward: 2256.209439
+Out of field
+Ep: 1710 Flag:-1 Reward: 2615.185194
+Out of field
+Ep: 1711 Flag:-1 Reward: 2063.097706
+Out of field
+Ep: 1712 Flag:-1 Reward: 3631.684584
+Ep: 1713 Flag:0 Reward: 5995.629778
+Ep: 1714 Flag:0 Reward: 5866.115399
+Out of field
+Ep: 1715 Flag:-1 Reward: 2350.322732
+Ep: 1716 Flag:0 Reward: 5796.450534
+Goal!
+Ep: 1717 Flag:1 Reward: 4885.300189
+Ep: 1718 Flag:0 Reward: 5865.485995
+Out of field
+Ep: 1719 Flag:-1 Reward: 838.532578
+Ep: 1720 Flag:0 Reward: 5684.236893
+Ep: 1721 Flag:0 Reward: 5417.931048
+Out of field
+Ep: 1722 Flag:-1 Reward: 2093.342904
+Ep: 1723 Flag:0 Reward: 5545.251272
+Ep: 1724 Flag:0 Reward: 2949.325995
+Out of field
+Ep: 1725 Flag:-1 Reward: 672.359559
+Ep: 1726 Flag:0 Reward: 5267.075009
+Out of field
+Ep: 1727 Flag:-1 Reward: 1029.058749
+Goal!
+Ep: 1728 Flag:1 Reward: 3886.084460
+Out of field
+Ep: 1729 Flag:-1 Reward: 727.978699
+Ep: 1730 Flag:0 Reward: 4287.658593
+Out of field
+Ep: 1731 Flag:-1 Reward: 449.554345
+Ep: 1732 Flag:0 Reward: 2345.070962
+Out of field
+Ep: 1733 Flag:-1 Reward: 889.706843
+Out of field
+Ep: 1734 Flag:-1 Reward: 506.855738
+Out of field
+Ep: 1735 Flag:-1 Reward: -1269.930065
+Ep: 1736 Flag:0 Reward: 4886.248807
+Out of field
+Ep: 1737 Flag:-1 Reward: 1149.274777
+Ep: 1738 Flag:0 Reward: 2271.931548
+Out of field
+Ep: 1739 Flag:-1 Reward: 2709.005021
+Ep: 1740 Flag:0 Reward: 3628.496685
+Ep: 1741 Flag:0 Reward: 1667.972346
+Ep: 1742 Flag:0 Reward: 2380.793181
+Out of field
+Ep: 1743 Flag:-1 Reward: 365.733632
+Ep: 1744 Flag:0 Reward: 4667.499600
+Ep: 1745 Flag:0 Reward: 5014.457812
+Ep: 1746 Flag:0 Reward: 4514.375887
+Out of field
+Ep: 1747 Flag:-1 Reward: -275.170554
+Ep: 1748 Flag:0 Reward: 3156.304458
+Ep: 1749 Flag:0 Reward: 3532.653682
+Ep: 1750 Flag:0 Reward: 4100.986562
+Ep: 1751 Flag:0 Reward: 3981.076451
+Ep: 1752 Flag:0 Reward: 3607.394155
+Ep: 1753 Flag:0 Reward: 3525.129864
+Ep: 1754 Flag:0 Reward: 3276.629416
+Ep: 1755 Flag:0 Reward: 3133.374933
+Ep: 1756 Flag:0 Reward: 2898.274201
+Ep: 1757 Flag:0 Reward: 3279.633607
+Ep: 1758 Flag:0 Reward: 2726.305712
+Ep: 1759 Flag:0 Reward: 2473.336051
+Ep: 1760 Flag:0 Reward: 1523.589323
+Out of field
+Ep: 1761 Flag:-1 Reward: 1199.435000
+Ep: 1762 Flag:0 Reward: 1425.110553
+Ep: 1763 Flag:0 Reward: 967.072331
+Ep: 1764 Flag:0 Reward: 2691.170893
+Out of field
+Ep: 1765 Flag:-1 Reward: -1158.882681
+Ep: 1766 Flag:0 Reward: 2521.979974
+Out of field
+Ep: 1767 Flag:-1 Reward: 234.903884
+Out of field
+Ep: 1768 Flag:-1 Reward: 2434.043748
+Ep: 1769 Flag:0 Reward: 4331.703904
+Ep: 1770 Flag:0 Reward: 4308.451004
+Out of field
+Ep: 1771 Flag:-1 Reward: 505.237987
+Ep: 1772 Flag:0 Reward: 5105.637049
+Ep: 1773 Flag:0 Reward: 4291.963269
+Out of field
+Ep: 1774 Flag:-1 Reward: 593.310856
+Ep: 1775 Flag:0 Reward: 4876.249584
+Ep: 1776 Flag:0 Reward: 4226.986753
+Out of field
+Ep: 1777 Flag:-1 Reward: 1751.156406
+Out of field
+Ep: 1778 Flag:-1 Reward: 1647.722564
+Ep: 1779 Flag:0 Reward: 4082.110594
+Out of field
+Ep: 1780 Flag:-1 Reward: -40.823267
+Ep: 1781 Flag:0 Reward: 3045.465937
+Out of field
+Ep: 1782 Flag:-1 Reward: -437.587022
+Out of field
+Ep: 1783 Flag:-1 Reward: 861.927720
+Ep: 1784 Flag:0 Reward: 2701.920180
+Ep: 1785 Flag:0 Reward: 4615.526302
+Out of field
+Ep: 1786 Flag:-1 Reward: 2456.245119
+Out of field
+Ep: 1787 Flag:-1 Reward: 439.209333
+Ep: 1788 Flag:0 Reward: 2611.427304
+Ep: 1789 Flag:0 Reward: 2293.306814
+Ep: 1790 Flag:0 Reward: 2270.676948
+Ep: 1791 Flag:0 Reward: 2638.227490
+Ep: 1792 Flag:0 Reward: 2893.607244
+Ep: 1793 Flag:0 Reward: 2585.963832
+Out of field
+Ep: 1794 Flag:-1 Reward: 1201.938018
+Ep: 1795 Flag:0 Reward: 4457.268929
+Ep: 1796 Flag:0 Reward: 2846.988932
+Ep: 1797 Flag:0 Reward: 5136.383424
+Ep: 1798 Flag:0 Reward: 3795.665297
+Ep: 1799 Flag:0 Reward: 3989.866985
+Ep: 1800 Flag:0 Reward: 4907.049766
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Ep: 1801 Flag:0 Reward: 3826.461273
+Ep: 1802 Flag:0 Reward: 2799.933172
+Ep: 1803 Flag:0 Reward: 2448.339956
+Ep: 1804 Flag:0 Reward: 3200.002921
+Ep: 1805 Flag:0 Reward: 2382.253610
+Ep: 1806 Flag:0 Reward: 2251.238243
+Ep: 1807 Flag:0 Reward: 3072.917111
+Ep: 1808 Flag:0 Reward: 2038.475064
+Ep: 1809 Flag:0 Reward: 2232.961235
+Ep: 1810 Flag:0 Reward: 3669.025794
+Ep: 1811 Flag:0 Reward: 2966.754723
+Out of field
+Ep: 1812 Flag:-1 Reward: -885.469771
+Ep: 1813 Flag:0 Reward: 4116.226531
+Ep: 1814 Flag:0 Reward: 1689.922321
+Ep: 1815 Flag:0 Reward: 2062.412168
+Ep: 1816 Flag:0 Reward: 2986.807307
+Ep: 1817 Flag:0 Reward: 1391.580233
+Ep: 1818 Flag:0 Reward: 2072.964952
+Ep: 1819 Flag:0 Reward: 1450.923885
+Ep: 1820 Flag:0 Reward: 1426.028648
+Ep: 1821 Flag:0 Reward: 2680.545045
+Ep: 1822 Flag:0 Reward: 1316.457080
+Ep: 1823 Flag:0 Reward: 1802.416565
+Ep: 1824 Flag:0 Reward: 2319.837597
+Ep: 1825 Flag:0 Reward: 3851.919970
+Out of field
+Ep: 1826 Flag:-1 Reward: 259.466802
+Ep: 1827 Flag:0 Reward: 3286.756735
+Ep: 1828 Flag:0 Reward: 3710.426799
+Ep: 1829 Flag:0 Reward: 3766.536043
+Ep: 1830 Flag:0 Reward: 3850.100146
+Ep: 1831 Flag:0 Reward: 3939.871219
+Ep: 1832 Flag:0 Reward: 4975.194958
+Ep: 1833 Flag:0 Reward: 4439.412204
+Ep: 1834 Flag:0 Reward: 4358.974618
+Ep: 1835 Flag:0 Reward: 3744.809429
+Ep: 1836 Flag:0 Reward: 3804.630286
+Ep: 1837 Flag:0 Reward: 3466.151878
+Ep: 1838 Flag:0 Reward: 4714.800419
+Ep: 1839 Flag:0 Reward: 3550.388059
+Ep: 1840 Flag:0 Reward: 5016.321377
+Out of field
+Ep: 1841 Flag:-1 Reward: 20.444715
+Ep: 1842 Flag:0 Reward: 3344.296687
+Ep: 1843 Flag:0 Reward: 4279.046115
+Ep: 1844 Flag:0 Reward: 4111.080710
+Ep: 1845 Flag:0 Reward: 4327.846700
+Ep: 1846 Flag:0 Reward: 4440.896045
+Ep: 1847 Flag:0 Reward: 4443.858058
+Ep: 1848 Flag:0 Reward: 4356.191026
+Ep: 1849 Flag:0 Reward: 4212.456797
+Out of field
+Ep: 1850 Flag:-1 Reward: 1811.532442
+Ep: 1851 Flag:0 Reward: 4382.595427
+Ep: 1852 Flag:0 Reward: 4614.672365
+Ep: 1853 Flag:0 Reward: 4910.532152
+Ep: 1854 Flag:0 Reward: 4297.521830
+Goal!
+Ep: 1855 Flag:1 Reward: 4837.207711
+Ep: 1856 Flag:0 Reward: 4641.401399
+Ep: 1857 Flag:0 Reward: 4674.217526
+Ep: 1858 Flag:0 Reward: 5145.348449
+Ep: 1859 Flag:0 Reward: 4064.722422
+Ep: 1860 Flag:0 Reward: 4835.273606
+Out of field
+Ep: 1861 Flag:-1 Reward: 632.690770
+Ep: 1862 Flag:0 Reward: 5069.890452
+Out of field
+Ep: 1863 Flag:-1 Reward: 289.842040
+Ep: 1864 Flag:0 Reward: 5321.426811
+Ep: 1865 Flag:0 Reward: 5216.395792
+Out of field
+Ep: 1866 Flag:-1 Reward: -430.182758
+Ep: 1867 Flag:0 Reward: 4976.814896
+Out of field
+Ep: 1868 Flag:-1 Reward: 899.060126
+Ep: 1869 Flag:0 Reward: 5340.425509
+Out of field
+Ep: 1870 Flag:-1 Reward: 1556.915352
+Ep: 1871 Flag:0 Reward: 5069.147751
+Out of field
+Ep: 1872 Flag:-1 Reward: 1199.082983
+Ep: 1873 Flag:0 Reward: 5467.161121
+Ep: 1874 Flag:0 Reward: 4905.391841
+Ep: 1875 Flag:0 Reward: 5470.396298
+Ep: 1876 Flag:0 Reward: 4929.599645
+Out of field
+Ep: 1877 Flag:-1 Reward: 564.737098
+Out of field
+Ep: 1878 Flag:-1 Reward: -443.946595
+Out of field
+Ep: 1879 Flag:-1 Reward: -1031.104686
+Out of field
+Ep: 1880 Flag:-1 Reward: -1159.397934
+Out of field
+Ep: 1881 Flag:-1 Reward: -303.496554
+Out of field
+Ep: 1882 Flag:-1 Reward: 75.059342
+Out of field
+Ep: 1883 Flag:-1 Reward: 3343.560806
+Out of field
+Ep: 1884 Flag:-1 Reward: 1043.981834
+Ep: 1885 Flag:0 Reward: 5264.455646
+Ep: 1886 Flag:0 Reward: 4183.763660
+Ep: 1887 Flag:0 Reward: 3633.337919
+Ep: 1888 Flag:0 Reward: 5082.904510
+Ep: 1889 Flag:0 Reward: 3465.647485
+Ep: 1890 Flag:0 Reward: 6250.991495
+Out of field
+Ep: 1891 Flag:-1 Reward: 2070.126226
+Ep: 1892 Flag:0 Reward: 686.933072

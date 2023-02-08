@@ -92,14 +92,14 @@ class DDPG:
         self.update_network_parameters()
 
     def save_models(self, episode):
-        self.actor.save_checkpoint(self.checkpoint_dir + 'Actor/DDPG_actor_{}.pth'.format(episode))
+        self.actor.save_checkpoint(self.checkpoint_dir + 'v2/' + 'Actor/DDPG_actor_{}.pth'.format(episode))
         print('Saving actor network successfully!')
-        self.target_actor.save_checkpoint(self.checkpoint_dir +
+        self.target_actor.save_checkpoint(self.checkpoint_dir + 'v2/' +
                                           'Target_actor/DDPG_target_actor_{}.pth'.format(episode))
         print('Saving target_actor network successfully!')
-        self.critic.save_checkpoint(self.checkpoint_dir + 'Critic/DDPG_critic_{}'.format(episode))
+        self.critic.save_checkpoint(self.checkpoint_dir + 'v2/' + 'Critic/DDPG_critic_{}'.format(episode))
         print('Saving critic network successfully!')
-        self.target_critic.save_checkpoint(self.checkpoint_dir +
+        self.target_critic.save_checkpoint(self.checkpoint_dir + 'v2/' +
                                            'Target_critic/DDPG_target_critic_{}'.format(episode))
         print('Saving target critic network successfully!')
 

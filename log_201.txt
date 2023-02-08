@@ -1,0 +1,373 @@
+pygame 2.1.3.dev8 (SDL 2.26.1, Python 3.8.15)
+Hello from the pygame community. https://www.pygame.org/contribute.html
+Loading actor network successfully!
+Loading target_actor network successfully!
+Loading critic network successfully!
+Loading target critic network successfully!
+Goal!
+Ep: 1 Flag:1 
+Goal!
+Ep: 2 Flag:1 
+Out of field
+Ep: 3 Flag:-1 
+Ep: 4 Flag:0 
+Ep: 5 Flag:0 
+Out of field
+Ep: 6 Flag:-1 
+Goal!
+Ep: 7 Flag:1 
+Out of field
+Ep: 8 Flag:-1 
+Out of field
+Ep: 9 Flag:-1 
+Out of field
+Ep: 10 Flag:-1 
+Out of field
+Ep: 11 Flag:-1 
+Out of field
+Ep: 12 Flag:-1 
+Out of field
+Ep: 13 Flag:-1 
+Ep: 14 Flag:0 
+Ep: 15 Flag:0 
+Out of field
+Ep: 16 Flag:-1 
+Out of field
+Ep: 17 Flag:-1 
+Out of field
+Ep: 18 Flag:-1 
+Ep: 19 Flag:0 
+Ep: 20 Flag:0 
+Ep: 21 Flag:0 
+Ep: 22 Flag:0 
+Goal!
+Ep: 23 Flag:1 
+Out of field
+Ep: 24 Flag:-1 
+Out of field
+Ep: 25 Flag:-1 
+Out of field
+Ep: 26 Flag:-1 
+Out of field
+Ep: 27 Flag:-1 
+Out of field
+Ep: 28 Flag:-1 
+Out of field
+Ep: 29 Flag:-1 
+Ep: 30 Flag:0 
+Out of field
+Ep: 31 Flag:-1 
+Goal!
+Ep: 32 Flag:1 
+Ep: 33 Flag:0 
+Goal!
+Ep: 34 Flag:1 
+Out of field
+Ep: 35 Flag:-1 
+Out of field
+Ep: 36 Flag:-1 
+Out of field
+Ep: 37 Flag:-1 
+Out of field
+Ep: 38 Flag:-1 
+Out of field
+Ep: 39 Flag:-1 
+Ep: 40 Flag:0 
+Goal!
+Ep: 41 Flag:1 
+Out of field
+Ep: 42 Flag:-1 
+Out of field
+Ep: 43 Flag:-1 
+Out of field
+Ep: 44 Flag:-1 
+Out of field
+Ep: 45 Flag:-1 
+Out of field
+Ep: 46 Flag:-1 
+Ep: 47 Flag:0 
+Out of field
+Ep: 48 Flag:-1 
+Out of field
+Ep: 49 Flag:-1 
+Goal!
+Ep: 50 Flag:1 
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Out of field
+Ep: 51 Flag:-1 
+Out of field
+Ep: 52 Flag:-1 
+Goal!
+Ep: 53 Flag:1 
+Ep: 54 Flag:0 
+Out of field
+Ep: 55 Flag:-1 
+Out of field
+Ep: 56 Flag:-1 
+Goal!
+Ep: 57 Flag:1 
+Out of field
+Ep: 58 Flag:-1 
+Out of field
+Ep: 59 Flag:-1 
+Goal!
+Ep: 60 Flag:1 
+Out of field
+Ep: 61 Flag:-1 
+Out of field
+Ep: 62 Flag:-1 
+Out of field
+Ep: 63 Flag:-1 
+Goal!
+Ep: 64 Flag:1 
+Out of field
+Ep: 65 Flag:-1 
+Out of field
+Ep: 66 Flag:-1 
+Goal!
+Ep: 67 Flag:1 
+Out of field
+Ep: 68 Flag:-1 
+Goal!
+Ep: 69 Flag:1 
+Ep: 70 Flag:0 
+Out of field
+Ep: 71 Flag:-1 
+Out of field
+Ep: 72 Flag:-1 
+Out of field
+Ep: 73 Flag:-1 
+Ep: 74 Flag:0 
+Ep: 75 Flag:0 
+Out of field
+Ep: 76 Flag:-1 
+Ep: 77 Flag:0 
+Goal!
+Ep: 78 Flag:1 
+Goal!
+Ep: 79 Flag:1 
+Goal!
+Ep: 80 Flag:1 
+Goal!
+Ep: 81 Flag:1 
+Goal!
+Ep: 82 Flag:1 
+Goal!
+Ep: 83 Flag:1 
+Ep: 84 Flag:0 
+Ep: 85 Flag:0 
+Goal!
+Ep: 86 Flag:1 
+Goal!
+Ep: 87 Flag:1 
+Ep: 88 Flag:0 
+Goal!
+Ep: 89 Flag:1 
+Goal!
+Ep: 90 Flag:1 
+Ep: 91 Flag:0 
+Goal!
+Ep: 92 Flag:1 
+Goal!
+Ep: 93 Flag:1 
+Goal!
+Ep: 94 Flag:1 
+Ep: 95 Flag:0 
+Ep: 96 Flag:0 
+Ep: 97 Flag:0 
+Ep: 98 Flag:0 
+Ep: 99 Flag:0 
+Ep: 100 Flag:0 
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Goal!
+Ep: 101 Flag:1 
+Ep: 102 Flag:0 
+Ep: 103 Flag:0 
+Ep: 104 Flag:0 
+Ep: 105 Flag:0 
+Ep: 106 Flag:0 
+Ep: 107 Flag:0 
+Ep: 108 Flag:0 
+Ep: 109 Flag:0 
+Goal!
+Ep: 110 Flag:1 
+Ep: 111 Flag:0 
+Ep: 112 Flag:0 
+Goal!
+Ep: 113 Flag:1 
+Ep: 114 Flag:0 
+Goal!
+Ep: 115 Flag:1 
+Ep: 116 Flag:0 
+Goal!
+Ep: 117 Flag:1 
+Ep: 118 Flag:0 
+Out of field
+Ep: 119 Flag:-1 
+Ep: 120 Flag:0 
+Out of field
+Ep: 121 Flag:-1 
+Ep: 122 Flag:0 
+Goal!
+Ep: 123 Flag:1 
+Ep: 124 Flag:0 
+Out of field
+Ep: 125 Flag:-1 
+Ep: 126 Flag:0 
+Goal!
+Ep: 127 Flag:1 
+Ep: 128 Flag:0 
+Ep: 129 Flag:0 
+Ep: 130 Flag:0 
+Ep: 131 Flag:0 
+Ep: 132 Flag:0 
+Goal!
+Ep: 133 Flag:1 
+Ep: 134 Flag:0 
+Ep: 135 Flag:0 
+Ep: 136 Flag:0 
+Ep: 137 Flag:0 
+Goal!
+Ep: 138 Flag:1 
+Ep: 139 Flag:0 
+Ep: 140 Flag:0 
+Ep: 141 Flag:0 
+Goal!
+Ep: 142 Flag:1 
+Ep: 143 Flag:0 
+Goal!
+Ep: 144 Flag:1 
+Goal!
+Ep: 145 Flag:1 
+Goal!
+Ep: 146 Flag:1 
+Goal!
+Ep: 147 Flag:1 
+Goal!
+Ep: 148 Flag:1 
+Goal!
+Ep: 149 Flag:1 
+Goal!
+Ep: 150 Flag:1 
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Goal!
+Ep: 151 Flag:1 
+Goal!
+Ep: 152 Flag:1 
+Goal!
+Ep: 153 Flag:1 
+Goal!
+Ep: 154 Flag:1 
+Ep: 155 Flag:0 
+Goal!
+Ep: 156 Flag:1 
+Out of field
+Ep: 157 Flag:-1 
+Ep: 158 Flag:0 
+Ep: 159 Flag:0 
+Ep: 160 Flag:0 
+Out of field
+Ep: 161 Flag:-1 
+Ep: 162 Flag:0 
+Ep: 163 Flag:0 
+Ep: 164 Flag:0 
+Goal!
+Ep: 165 Flag:1 
+Goal!
+Ep: 166 Flag:1 
+Ep: 167 Flag:0 
+Goal!
+Ep: 168 Flag:1 
+Goal!
+Ep: 169 Flag:1 
+Goal!
+Ep: 170 Flag:1 
+Goal!
+Ep: 171 Flag:1 
+Ep: 172 Flag:0 
+Goal!
+Ep: 173 Flag:1 
+Goal!
+Ep: 174 Flag:1 
+Goal!
+Ep: 175 Flag:1 
+Out of field
+Ep: 176 Flag:-1 
+Goal!
+Ep: 177 Flag:1 
+Ep: 178 Flag:0 
+Ep: 179 Flag:0 
+Goal!
+Ep: 180 Flag:1 
+Goal!
+Ep: 181 Flag:1 
+Goal!
+Ep: 182 Flag:1 
+Ep: 183 Flag:0 
+Goal!
+Ep: 184 Flag:1 
+Goal!
+Ep: 185 Flag:1 
+Goal!
+Ep: 186 Flag:1 
+Goal!
+Ep: 187 Flag:1 
+Goal!
+Ep: 188 Flag:1 
+Ep: 189 Flag:0 
+Ep: 190 Flag:0 
+Ep: 191 Flag:0 
+Out of field
+Ep: 192 Flag:-1 
+Goal!
+Ep: 193 Flag:1 
+Goal!
+Ep: 194 Flag:1 
+Ep: 195 Flag:0 
+Goal!
+Ep: 196 Flag:1 
+Goal!
+Ep: 197 Flag:1 
+Goal!
+Ep: 198 Flag:1 
+Ep: 199 Flag:0 
+Ep: 200 Flag:0 
+Saving actor network successfully!
+Saving target_actor network successfully!
+Saving critic network successfully!
+Saving target critic network successfully!
+Ep: 201 Flag:0 
+Ep: 202 Flag:0 
+Goal!
+Ep: 203 Flag:1 
+Goal!
+Ep: 204 Flag:1 
+Goal!
+Ep: 205 Flag:1 
+Goal!
+Ep: 206 Flag:1 
+Ep: 207 Flag:0 
+Ep: 208 Flag:0 
+Goal!
+Ep: 209 Flag:1 
+Ep: 210 Flag:0 
+Goal!
+Ep: 211 Flag:1 
+Goal!
+Ep: 212 Flag:1 
+Ep: 213 Flag:0 
+Ep: 214 Flag:0 
+Out of field
+Ep: 215 Flag:-1 
+Goal!
+Ep: 216 Flag:1 
+Goal!

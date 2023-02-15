@@ -49,14 +49,15 @@ class object():
         vry = vy1 - vy2
         # if vrx * c + vry * s < 0:
         #     return
-        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1 + 0 * d * c,
-                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1 + 0 * d * s)
+        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1,
+                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1)
 
     def soccer_bounce(self, xbounds):
+        coef = 0.9
         if xbounds:
-            self.vel.x = -self.vel.x
+            self.vel.x = -coef*self.vel.x
         else:
-            self.vel.y = -self.vel.y
+            self.vel.y = -coef*self.vel.y
 
     def crush(self, player):
         coef = -1
@@ -80,8 +81,9 @@ class object():
             self.vel = self.vel.mul(max_velocity / v)
 
     def process(self, fade):
+
         self.coord = self.coord.add(self.vel.mul(time_step))
-        if ~fade:
+        if not fade:
             return
         prev_vel = self.vel
         self.vel = self.vel.min(self.vel.mul(gamma * time_step))
@@ -161,7 +163,8 @@ class field():
         # self.soccer = object(vec2D(0,0), vec2D(0, 0), radius_soccer)
 
     def detect_soccer(self):
-        if self.soccer.coord.y > self.ylim[1] - self.soccer.radius or self.soccer.coord.y < self.ylim[0] + self.soccer.radius:
+        if self.soccer.coord.y > self.ylim[1] - self.soccer.radius or self.soccer.coord.y < self.ylim[
+            0] + self.soccer.radius:
             self.soccer.soccer_bounce(False)
         if self.soccer.coord.x < -field_width / 2 + self.soccer.radius:
             self.soccer.soccer_bounce(True)
@@ -213,7 +216,7 @@ class field():
                 if dist_to_other <= 2 * radius_player:
                     self.teamA[i].crush(self.teamB[j])
             dist_to_ball = self.teamA[i].coord.dist(self.soccer.coord)
-            if dist_to_ball < radius_player - radius_soccer:
+            if dist_to_ball < radius_player:
                 return True
             if dist_to_ball <= radius_player + radius_soccer:
                 self.soccer.strike(self.teamA[i])
@@ -229,7 +232,7 @@ class field():
                 if dist_to_other <= 2 * radius_player:
                     self.teamB[i].crush(self.teamB[j])
             dist_to_ball = self.teamB[i].coord.dist(self.soccer.coord)
-            if dist_to_ball < radius_player - radius_soccer:
+            if dist_to_ball < radius_player:
                 return True
             if dist_to_ball <= radius_player + radius_soccer:
                 self.soccer.strike(self.teamB[i])

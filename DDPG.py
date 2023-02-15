@@ -104,14 +104,14 @@ class DDPG:
                                            'Target_critic/DDPG_target_critic_{}'.format(episode))
         print('Saving target critic network successfully!')
 
-    def load_models(self, episode):
-        self.actor.load_checkpoint(self.checkpoint_dir + 'Actor/DDPG_actor_{}.pth'.format(episode))
+    def load_models(self, episode, path):
+        self.actor.load_checkpoint(path + 'Actor/DDPG_actor_{}.pth'.format(episode))
         print('Loading actor network successfully!')
-        self.target_actor.load_checkpoint(self.checkpoint_dir +
+        self.target_actor.load_checkpoint(path +
                                           'Target_actor/DDPG_target_actor_{}.pth'.format(episode))
         print('Loading target_actor network successfully!')
-        self.critic.load_checkpoint(self.checkpoint_dir + 'Critic/DDPG_critic_{}'.format(episode))
+        self.critic.load_checkpoint(path + 'Critic/DDPG_critic_{}'.format(episode))
         print('Loading critic network successfully!')
-        self.target_critic.load_checkpoint(self.checkpoint_dir +
+        self.target_critic.load_checkpoint(path +
                                            'Target_critic/DDPG_target_critic_{}'.format(episode))
         print('Loading target critic network successfully!')

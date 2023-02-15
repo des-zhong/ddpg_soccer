@@ -84,7 +84,11 @@ def main():
 
             action_ = np.array(action).flatten()
             # print(action_)
-            flag = env.run_step(action_)
+            env.set_vel(action_)
+            bug = env.detect_player()
+            if bug:
+                break
+            flag = env.set_coord()
             state_ = env.derive_pos()
             reward = get_pos_reward(state, state_, action_, flag)
 
@@ -95,7 +99,7 @@ def main():
 
             total_reward += np.array(reward)
             # if((episode + 1)%100 == 0):
-            # visualize.draw(state_)
+            visualize.draw(env.derive_state())
             k = k + 1
 
         reward_history.append(total_reward)

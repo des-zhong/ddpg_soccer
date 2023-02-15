@@ -63,7 +63,11 @@ def main():
             state = env.derive_pos()
             action = agentA.choose_action(state,train=True)
             action_ = np.hstack([action,np.array([0,0])])
-            flag = env.run_step(action_)
+            env.set_vel(action_)
+            bug = env.detect_player()
+            if bug:
+                break
+            flag = env.set_coord()
             state_ = env.derive_pos()
             reward = get_reward(state,state_,flag)
             

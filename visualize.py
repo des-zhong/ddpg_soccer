@@ -21,7 +21,7 @@ def draw(state):
     screen = pygame.display.set_mode((field_width / ratio, field_length / ratio))
     # 设置窗口标题
     pygame.display.set_caption('soccer game')
-    screen.fill('white')
+    screen.fill('green')
     wid = 20
     rect = pygame.Rect(field_width / ratio - wid, (field_length - gate_length) / 2 / ratio, wid, gate_length / ratio)
     pygame.draw.rect(screen, (190, 190, 190), rect)
@@ -36,8 +36,8 @@ def draw(state):
     for i in range(teamB_num):
         pygame.draw.circle(screen, (0, 0, 255), (
             (teamB[4 * i] + field_width / 2) / ratio, (teamB[4 * i + 1] + field_length / 2) / ratio),
-                           radius_player / ratio, width=1)
-    pygame.draw.circle(screen, (0, 255, 0),
+                           radius_player / ratio)
+    pygame.draw.circle(screen, (255, 255, 255),
                        ((soccer_coord[0] + field_width / 2) / ratio, (soccer_coord[1] + field_length / 2) / ratio),
-                       radius_soccer / ratio, width=1)
+                       radius_soccer / ratio)
     pygame.display.flip()  # 更新屏幕内容

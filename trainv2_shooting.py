@@ -74,7 +74,11 @@ def main():
             action_ = np.array(action).flatten()
             A.append(action_)
             #print(action_)
-            flag = env.run_step(action_)
+            env.set_vel(action_)
+            bug = env.detect_player()
+            if bug:
+                break
+            flag = env.set_coord()
             state_ = env.derive_pos()
             S_.append(state_)
             F.append(flag)

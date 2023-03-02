@@ -2,12 +2,13 @@ import DDPG
 from config import *
 import numpy as np
 
-agentA = DDPG.DDPG(alpha=0.0001, beta=0.001, state_dim=2 * (teamA_num + teamB_num + 1),
-                   action_dim=2 * teamA_num, actor_fc1_dim=512, actor_fc2_dim=256, actor_fc3_dim=128,
-                   critic_fc1_dim=512, critic_fc2_dim=256, critic_fc3_dim=128,
-                   ckpt_dir='./checkpoints/shooting_02' + '/',
+agentA = DDPG.DDPG(alpha=actor_lr, beta=critic_lr, state_dim=2 * (teamA_num + teamB_num + 1),
+                   action_dim=2 * teamA_num, actor_fc1_dim=fc1_dim, actor_fc2_dim=fc2_dim,
+                   actor_fc3_dim=fc3_dim,
+                   critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim,
+                   ckpt_dir='./checkpoints/' + 'test' + '/',
                    batch_size=64)
-agentA.load_models(240, './checkpoints/' + 'shooting_02' + '/')
+agentA.load_models(0, './checkpoints/DDPG/test/')
 
 
 def rel_state(state):

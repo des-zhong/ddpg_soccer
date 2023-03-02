@@ -13,9 +13,9 @@ radius_soccer = 50
 radius_player = 131
 gate_length = 500
 teamA_num = 1
-teamB_num = 0
+teamB_num = 1
 max_velocity = 100
-max_iter = 5000
+max_iter = 2000
 
 fc1_dim = 64
 fc2_dim = 42

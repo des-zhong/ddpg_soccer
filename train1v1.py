@@ -7,31 +7,12 @@ from utils import create_directory
 import visualize
 
 parser = argparse.ArgumentParser("DDPG parameters")
-parser.add_argument('--max_episodes', type=int, default=20)
+parser.add_argument('--max_episodes', type=int, default=200)
 parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints/DDPG/')
 args = parser.parse_args()
 
 
-# def get_reward(state, state_, action, flag):
-#     reward = []
-#     for i in range(teamA_num):
-#         player = state[4 * i: 4 * i + 2]
-#         soccer = state[4 * (teamA_num + teamB_num):4 * (teamA_num + teamB_num) + 2]
-#         player_ = state_[4 * i: 4 * i + 2]
-#         gate = np.array([field_width / 2, 0])
-#         soccer_ = state_[4 * (teamA_num + teamB_num):4 * (teamA_num + teamB_num) + 2]
-#         r = np.linalg.norm(player - soccer) - np.linalg.norm(player_ - soccer_)
-#         # r -= np.linalg.norm(soccer_ - gate)
-#         # r = -np.linalg.norm(action)
-#         reward.append(r)
-#     for i in range(teamB_num):
-#         r = 1
-#         reward.append(r)
-#
-#     return (reward)
-
-
-def get_pos_reward(state, state_, action, flag):
+def get_pos_reward(state, state_):
     reward = []
 
     for i in range(teamA_num):
@@ -39,18 +20,16 @@ def get_pos_reward(state, state_, action, flag):
         gate = state[-2:]
         player_ = state_[2 * i: 2 * i + 2]
         gate_ = state_[-2:]
-        # r = np.linalg.norm(player) - np.linalg.norm(player_)
-        # r += 3 * (np.linalg.norm(gate) - np.linalg.norm(gate_))
-        cos = (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
-        r = 8*cos
-        r = +np.linalg.norm(player) - np.linalg.norm(player_)
-        r += 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate))
+        # cos = (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
+        # r = 5 * cos
+        r = 0.2 * (np.linalg.norm(player) - np.linalg.norm(player_))
+        # r += 2 * (-np.linalg.norm(gate_) + np.linalg.norm(gate))
         reward.append(r)
     for i in range(teamB_num):
         r = 1
         reward.append(r)
 
-    return (reward)
+    return reward[0]
 
 
 def main():
@@ -62,53 +41,56 @@ def main():
                   batch_size=64)
     create_directory(args.checkpoint_dir + 'test' + '/',
                      sub_paths=['Actor', 'Target_actor', 'Critic', 'Target_critic'])
-
-    reward_history = []
-    avg_reward_history = []
+    # agentA.load_models(0, './checkpoints/' + 'DDPG' + '/test/')
     for episode in range(args.max_episodes):
         flag = 0
-        total_reward = 0
-        state = env.derive_pos()
+        S = []
+        A = []
+        S_ = []
+        F = []
+        R = []
         k = 0
-        ok = False
         while True:
             env.reset()
             ok = env.collide()
             if ok == True:
                 break
+        N = 2000
         while flag == 0 and k < 2000:
-            kick = 0
             state = env.derive_pos()
-            action = [agentA.choose_action(state, train=True)]
-            # action.append(100*(np.random.random(2 * teamB_num) - np.ones(2 * teamB_num) * 0.5))
-
+            S.append(state)
+            action = []
+            action.append(agentA.choose_action(state, train=True))
             action_ = np.array(action).flatten()
-            # print(action_)
-            env.set_vel(action_)
-            bug = env.detect_player()
+            A.append(action_)
+            command = np.array([action[0], np.array([0, 0])]).flatten()
+            env.set_vel(command)
+            bug, kick = env.detect_player()
             if bug:
                 break
             flag = env.set_coord()
             state_ = env.derive_pos()
-            reward = get_pos_reward(state, state_, action_, flag)
-
-            agentA.remember(state, action[0], reward[0], state_, flag)
-            agentA.learn()
-
-            env.detect_player()
-
-            total_reward += np.array(reward)
-            # if((episode + 1)%100 == 0):
-            visualize.draw(env.derive_state())
+            R.append(get_pos_reward(state, state_) + kick * 3)
+            S_.append(state_)
+            F.append(flag)
+            if kick == 1 and N > k:
+                print('kick')
+                N = k
             k = k + 1
+        N = min(N, k)
+        if flag == 1:
+            for i in range(N):
+                agentA.remember(S[i], A[i], R[i] + 8, S_[i], F[i])
+                agentA.learn()
+        if flag == 0:
+            for i in range(N):
+                agentA.remember(S[i], A[i], R[i] - 5, S_[i], F[i])
+                agentA.learn()
 
-        reward_history.append(total_reward)
-        avg_reward = np.mean(reward_history[-100:])
-        avg_reward_history.append(avg_reward)
-        print(episode, reward)
-        # print('Ep: {0} Flag:{1} Reward: {2:f} {3:f} '.format(episode+1, flag, total_reward[0],total_reward[1]))
-    #
-    agentA.save_models(0)
+        print('Ep: {0} Flag:{1} '.format(episode + 1, flag))
+
+        if (episode + 1) % 20 == 0:
+            agentA.save_models(episode + 1)
 
     # episodes = [i+1 for i in range(args.max_episodes)]
     # plot_learning_curve(episodes, avg_reward_history, title='AvgReward',

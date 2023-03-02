@@ -3,12 +3,13 @@ import pygame
 from config import *
 import time
 
+white = (255, 255, 255)
 
 
-white = (255,255,255)
 def text_objects(text, font):
     textSurface = font.render(text, True, white)
     return textSurface, textSurface.get_rect()
+
 
 def draw(state):
     teamA = state[0:4 * teamA_num]
@@ -23,8 +24,14 @@ def draw(state):
     pygame.display.set_caption('soccer game')
     screen.fill('green')
     wid = 20
-    rect = pygame.Rect(field_width / ratio - wid, (field_length - gate_length) / 2 / ratio, wid, gate_length / ratio)
-    pygame.draw.rect(screen, (190, 190, 190), rect)
+    fzone_wid = 150
+    gate = pygame.Rect(field_width / ratio - wid, (field_length - gate_length) / 2 / ratio, wid, gate_length / ratio)
+    fzone = pygame.Rect(field_width / ratio - fzone_wid, (field_length - gate_length) / 2 / ratio - 120, fzone_wid, 400)
+    pygame.draw.circle(screen, (255, 255, 255), (0, field_length / 2 / ratio), 200, width=3)
+    pygame.draw.lines(screen, (255, 255, 255), False, [(0, 0), (0, field_length/ratio)], width=3)
+    pygame.draw.lines(screen, (255, 255, 255), False, [(field_width/2/ratio, 0), (field_width/2/ratio, field_length / ratio)], width=3)
+    pygame.draw.rect(screen, (190, 190, 190), gate)
+    pygame.draw.rect(screen, (255, 255, 255), fzone, width=3)
     # largeText = pygame.font.Font('freesansbold.ttf', 115)
     # TextSurf, TextRect = text_objects('123', largeText)
     # TextRect.center = ((field_width / ratio / 2), (field_width / ratio / 2))

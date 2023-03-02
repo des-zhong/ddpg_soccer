@@ -53,10 +53,10 @@ class DDPG:
         action = self.actor.forward(state).squeeze()
 
         if train:
-            noise = T.tensor(np.random.normal(loc=0.0, scale=100 * self.action_noise),
+            noise = T.tensor(np.random.normal(loc=0.0, scale=5 * self.action_noise),
                              dtype=T.float).to(device)
-            # print(action, action + 20 * noise)
-            action = action + 10 * noise
+            # print(action, noise)
+            action = action + noise
             self.actor.train()
 
         return action.detach().cpu().numpy()

@@ -47,17 +47,15 @@ class object():
         c = dx / d
         vrx = vx1 - vx2
         vry = vy1 - vy2
-        # if vrx * c + vry * s < 0:
-        #     return
-        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1,
-                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1)
+        self.vel = vec2D(2 * vry * s * c + vrx * (c ** 2 - s ** 2) + vx1 + 0.1 * dx,
+                         2 * vrx * s * c - vry * (c ** 2 - s ** 2) + vy1 + 0.1 * dy)
 
     def soccer_bounce(self, xbounds):
         coef = 0.9
         if xbounds:
-            self.vel.x = -coef*self.vel.x
+            self.vel.x = -coef * self.vel.x
         else:
-            self.vel.y = -coef*self.vel.y
+            self.vel.y = -coef * self.vel.y
 
     def crush(self, player):
         coef = -1
@@ -102,9 +100,9 @@ class field():
 
         self.gate_length = gate_length
         # self.xlimA = [-width / 2 + radius_player, width / 2 - radius_player]
-        self.xlimA = [-width / 2 + radius_player, 0]
+        self.xlimA = [-width / 2 + radius_player, -radius_player - radius_soccer]
         self.xlimB = [0, width / 2 - radius_player]
-        self.ylim = [-length / 2 + radius_player, length / 2 - radius_player]
+        self.ylim = [-length / 4 + radius_player, length / 4 - radius_player]
         self.score = [0, 0]
         self.teamA = []
         self.teamB = []
@@ -154,17 +152,16 @@ class field():
             self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
             # self.teamA.append(object(vec2D(-300, 300), vec2D(0, 0), radius_player, i))
         for i in range(self.numB):
-            random_coord = vec2D(500, 0)
+            random_coord = vec2D(700, 100)
             self.teamB.append(object(random_coord, vec2D(0, 0), radius_player, i))
         # self.soccer = object(random([-self.width / 4, self.width / 4], [-self.length / 4, self.length / 4]),
         #                      vec2D(0, 0), radius_soccer)
         random_coord = random([-300, 300], [-300, 300])
-        self.soccer = object(random_coord, vec2D(0, 0), radius_soccer)
-        # self.soccer = object(vec2D(0,0), vec2D(0, 0), radius_soccer)
+        # self.soccer = object(random_coord, vec2D(0, 0), radius_soccer)
+        self.soccer = object(vec2D(0, 0), vec2D(0, 0), radius_soccer)
 
     def detect_soccer(self):
-        if self.soccer.coord.y > self.ylim[1] - self.soccer.radius or self.soccer.coord.y < self.ylim[
-            0] + self.soccer.radius:
+        if self.soccer.coord.y > field_length / 2 - self.soccer.radius or self.soccer.coord.y < field_length / 2 + self.soccer.radius:
             self.soccer.soccer_bounce(False)
         if self.soccer.coord.x < -field_width / 2 + self.soccer.radius:
             self.soccer.soccer_bounce(True)
@@ -200,6 +197,7 @@ class field():
         return True
 
     def detect_player(self):
+        kick = 0
         for i in range(self.numA):
             if abs(self.teamA[i].coord.x) > field_width / 2 - radius_player:
                 self.teamA[i].coord.x = (field_width / 2 - radius_player) * self.teamA[i].coord.x / abs(
@@ -217,9 +215,10 @@ class field():
                     self.teamA[i].crush(self.teamB[j])
             dist_to_ball = self.teamA[i].coord.dist(self.soccer.coord)
             if dist_to_ball < radius_player:
-                return True
+                return True, kick
             if dist_to_ball <= radius_player + radius_soccer:
                 self.soccer.strike(self.teamA[i])
+                kick = 1
         for i in range(self.numB):
             if abs(self.teamB[i].coord.x) > field_width / 2 - radius_player:
                 self.teamB[i].coord.x = (field_width / 2 - radius_player) * self.teamB[i].coord.x / abs(
@@ -233,10 +232,11 @@ class field():
                     self.teamB[i].crush(self.teamB[j])
             dist_to_ball = self.teamB[i].coord.dist(self.soccer.coord)
             if dist_to_ball < radius_player:
-                return True
+                return True, kick
             if dist_to_ball <= radius_player + radius_soccer:
                 self.soccer.strike(self.teamB[i])
-        return False
+                kick = 1
+        return False, kick
 
     def set_vel(self, command):
         for i in range(self.numA):
@@ -245,6 +245,7 @@ class field():
             self.teamB[i].vel = vec2D(command[2 * self.numA + 2 * i], command[2 * self.numA + 2 * i + 1])
 
     def set_coord(self):
+        kick = 0
         for i in range(self.numA):
             self.teamA[i].process(False)
         for i in range(self.numB):
@@ -255,12 +256,13 @@ class field():
         return flag
 
     def match(self, num):
-        agentA = DDPG.DDPG(alpha=0.0001, beta=0.001, state_dim=2 * (teamA_num + teamB_num + 1),
-                           action_dim=2 * teamA_num, actor_fc1_dim=512, actor_fc2_dim=256, actor_fc3_dim=128,
-                           critic_fc1_dim=512, critic_fc2_dim=256, critic_fc3_dim=128,
-                           ckpt_dir='./checkpoints/shooting_02' + '/',
+        agentA = DDPG.DDPG(alpha=actor_lr, beta=critic_lr, state_dim=2 * (teamA_num + teamB_num + 1),
+                           action_dim=2 * teamA_num, actor_fc1_dim=fc1_dim, actor_fc2_dim=fc2_dim,
+                           actor_fc3_dim=fc3_dim,
+                           critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim,
+                           ckpt_dir='./checkpoints/' + 'test' + '/',
                            batch_size=64)
-        agentA.load_models(240, './checkpoints/' + 'shooting_02' + '/')
+        agentA.load_models(80, './checkpoints/' + 'DDPG' + '/test/')
         for i in range(num):
             print('match ', i, ' begins')
             flag = 0
@@ -270,25 +272,19 @@ class field():
                 ok = self.collide()
                 if ok == True:
                     break
-            state = self.derive_state()
-            # print(state)
             k = 0
-            while flag == 0:
+            while flag == 0 and k < max_iter:
                 state = self.derive_pos()
                 action = agentA.choose_action(state, train=False)
                 action_ = np.hstack([action, np.array([0, 0])])
-                # action_ = [agentA.choose_action(state, train=False)]
-                # action_ = np.array(action_).flatten()
                 self.set_vel(action_)
-                bug = self.detect_player()
+                bug, kick = self.detect_player()
                 if bug:
                     break
                 flag = self.set_coord()
 
                 k = k + 1
                 visualize.draw(self.derive_state())
-                if k > max_iter:
-                    break
             print('\n')
 
     def test_collide(self, num):
@@ -299,16 +295,15 @@ class field():
             while True:
                 self.reset()
                 ok = self.collide()
-                if ok == True:
+                if ok:
                     break
             k = 0
+
             while flag == 0:
                 state = self.derive_pos()
                 action = state[:-2]
-                # action_ = [agentA.choose_action(state, train=False)]
-                # action_ = np.array(action_).flatten()
                 self.set_vel(action)
-                bug = self.detect_player()
+                bug, kick = self.detect_player()
                 if bug:
                     break
                 flag = self.set_coord()

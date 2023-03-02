@@ -12,29 +12,6 @@ parser.add_argument('--checkpoint_dir', type=str, default='./checkpoints/')
 args = parser.parse_args()
 
 
-# def get_reward(state,state_,flag):
-#     for i in range(teamA_num):
-#         r = 0
-#         player = state[2 * i: 2 * i + 2]
-#         gate = state[-2:]
-#         player_ = state_[2 * i: 2 * i + 2]
-#         gate_ = state_[-2:]
-#         if np.linalg.norm(player) > np.linalg.norm(player_ ) :
-#             r += 1
-#         else :
-#             r -= 1
-#         if np.linalg.norm(gate) > np.linalg.norm(gate_):
-#             r += 3
-#         if np.linalg.norm(gate) < np.linalg.norm(gate_):
-#             r -= 3
-#         if flag == 1:
-#             r += 5*flag
-#         cos = (player_[0] * gate_[0] + player_[1] * gate_[1]) / np.linalg.norm(player_) / np.linalg.norm(gate_)
-#         r += 8 * cos
-#         reward = r
-
-#     return(reward)
-
 
 def main():
     env = utility.field(teamA_num, teamB_num, field_width, field_length)
@@ -64,7 +41,6 @@ def main():
             if ok == True:
                 break
         while flag == 0 and k < 2000:
-            kick = 0
             state = env.derive_pos()
             S.append(state)
             action = []
@@ -81,11 +57,6 @@ def main():
             state_ = env.derive_pos()
             S_.append(state_)
             F.append(flag)
-
-            env.detect_player()
-
-            # if((episode + 1)%100 == 0):
-            # visualize.draw(env.derive_state())
             k = k + 1
 
         if flag == 1:

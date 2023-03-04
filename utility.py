@@ -152,7 +152,7 @@ class field():
             self.teamA.append(object(random_coord, vec2D(0, 0), radius_player, i))
             # self.teamA.append(object(vec2D(-300, 300), vec2D(0, 0), radius_player, i))
         for i in range(self.numB):
-            random_coord = vec2D(700, 100)
+            random_coord = vec2D(700, 0)
             self.teamB.append(object(random_coord, vec2D(0, 0), radius_player, i))
         # self.soccer = object(random([-self.width / 4, self.width / 4], [-self.length / 4, self.length / 4]),
         #                      vec2D(0, 0), radius_soccer)
@@ -262,7 +262,7 @@ class field():
                            critic_fc1_dim=fc1_dim, critic_fc2_dim=fc2_dim, critic_fc3_dim=fc3_dim,
                            ckpt_dir='./checkpoints/' + 'test' + '/',
                            batch_size=64)
-        agentA.load_models(80, './checkpoints/' + 'DDPG' + '/test/')
+        agentA.load_models(60, './checkpoints/' + 'DDPG' + '/test/')
         for i in range(num):
             print('match ', i, ' begins')
             flag = 0
@@ -270,7 +270,7 @@ class field():
             while True:
                 self.reset()
                 ok = self.collide()
-                if ok == True:
+                if ok:
                     break
             k = 0
             while flag == 0 and k < max_iter:

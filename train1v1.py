@@ -67,6 +67,7 @@ def main():
             env.set_vel(command)
             bug, kick = env.detect_player()
             if bug:
+                flag = -1
                 break
             flag = env.set_coord()
             state_ = env.derive_pos()
@@ -80,9 +81,13 @@ def main():
         N = min(N, k)
         if flag == 1:
             for i in range(N):
-                agentA.remember(S[i], A[i], R[i] + 8, S_[i], F[i])
+                agentA.remember(S[i], A[i], R[i] + 20, S_[i], F[i])
                 agentA.learn()
         if flag == 0:
+            for i in range(N):
+                agentA.remember(S[i], A[i], R[i] - 5, S_[i], F[i])
+                agentA.learn()
+        if flag == -1:
             for i in range(N):
                 agentA.remember(S[i], A[i], R[i] - 5, S_[i], F[i])
                 agentA.learn()
